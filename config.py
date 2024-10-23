@@ -1,0 +1,7 @@
+API_KEY = '204b8940e5d4c9be1a3ab2e8192a286f'
+SPORT = 'icehockey_nhl'
+REGIONS = 'us'
+MARKETS = 'h2h,spreads'
+ODDS_FORMAT = 'decimal'
+DATE_FORMAT = 'iso'
+DATABASE = 'nhl_player_shots.db'

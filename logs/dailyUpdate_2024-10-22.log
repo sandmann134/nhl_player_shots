@@ -1,0 +1,478 @@
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing Washington Capitals at Philadelphia Flyers, ID: ba8a12e189b3d636ffb43be5cc4fa940
+Processing Minnesota Wild at Florida Panthers, ID: 27746bc4e76936d45f41638c2c820188
+Processing Tampa Bay Lightning at New Jersey Devils, ID: 8f42cc0a1a14454a4efed3a3babc0e2e
+Processing Dallas Stars at Buffalo Sabres, ID: eedd0fd3a82fa882999ead1a9afff464
+Processing New York Rangers at Montréal Canadiens, ID: 3092127f989e15b0fef7f3c3d53a0f84
+Processing Toronto Maple Leafs at Columbus Blue Jackets, ID: a008650f541f617eb383e659cd568783
+Processing Detroit Red Wings at New York Islanders, ID: 36098d04ed728f13fc1369acb969f65a
+Processing Winnipeg Jets at St Louis Blues, ID: 34a1c512e7ed395074072e7e67c7aa41
+Processing Vancouver Canucks at Chicago Blackhawks, ID: 69d93baab9c353ad17989c63d6025c99
+Processing Colorado Avalanche at Seattle Kraken, ID: f776f3d8296c63156eced3577b83aa24
+Processing Boston Bruins at Nashville Predators, ID: c92efebbc42fbb72f3a87d781278ac04
+Processing Carolina Hurricanes at Edmonton Oilers, ID: 2a2a55019c073fe1002ef323c7589bca
+Processing Ottawa Senators at Utah Hockey Club, ID: 3e87222ad607d014ddf601bb7c5f9b03
+Processing Pittsburgh Penguins at Calgary Flames, ID: 56eda3b51b4eb1875c2ce1a037a23e88
+Processing San Jose Sharks at Anaheim Ducks, ID: a11f084845e738c4c362ab8adc592c98
+Processing Los Angeles Kings at Vegas Golden Knights, ID: e3a3662ba276acf34c1a0442d4ea4458
+Processing Philadelphia Flyers at Washington Capitals, ID: cb7e921a7ba7cbd9a065d9dddf5ac422
+Used requests: 97
+Remaining requests: 403
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+No valid game log data available for player ID: 8484144 before date 2024-10-11 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-11 for season 20222023.
+No valid game log data available for player ID: 8484166 before date 2024-10-15 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-15 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-15 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-15 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20222023.
+Samuel Honzek has less than 60 GP.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20222023.
+Samuel Honzek has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8483431 before date 2024-10-16 for season 20222023.
+No valid game log data available for player ID: 8483431 before date 2024-10-16 for season 20222023.
+No valid game log data available for player ID: 8483445 before date 2024-10-16 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-16 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-16 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-16 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-17 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-17 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-17 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-17 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-18 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-18 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-18 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-18 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-19 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-19 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-19 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-19 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-10-19 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-19 for season 20222023.
+Player: Alex Ovechkin, date: 2024-10-22, Over 2.5, Price: 1.65, Kelly Bet: 5.90%
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20222023.
+Matvei Michkov has less than 60 GP.
+Player: John Carlson, date: 2024-10-22, Under 2.5, Price: 1.64, Kelly Bet: 0.27%
+Player: Morgan Frost, date: 2024-10-22, Under 2.5, Price: 1.62, Kelly Bet: 6.07%
+Player: Jakob Chychrun, date: 2024-10-22, Over 2.5, Price: 2.45, Kelly Bet: 2.94%
+Player: Joel Farabee, date: 2024-10-22, Over 1.5, Price: 1.65, Kelly Bet: 1.80%
+Player: Cam York, date: 2024-10-22, Under 1.5, Price: 1.95, Kelly Bet: 2.01%
+Player: Matthew Tkachuk, date: 2024-10-22, Over 3.5, Price: 2.18, Kelly Bet: 1.68%
+Player: Sam Bennett, date: 2024-10-22, Under 2.5, Price: 2.35, Kelly Bet: 4.21%
+Player: Sam Reinhart, date: 2024-10-22, Under 2.5, Price: 2.3, Kelly Bet: 1.50%
+Player: Joel Eriksson Ek, date: 2024-10-22, Over 2.5, Price: 1.71, Kelly Bet: 5.88%
+Player: Mats Zuccarello, date: 2024-10-22, Over 2.5, Price: 2.25, Kelly Bet: 0.97%
+Player: Ryan Hartman, date: 2024-10-22, Over 2.5, Price: 2.5, Kelly Bet: 1.61%
+Player: Aaron Ekblad, date: 2024-10-22, Over 1.5, Price: 1.76, Kelly Bet: 3.28%
+Player: Anton Lundell, date: 2024-10-22, Under 2.5, Price: 1.85, Kelly Bet: 5.80%
+Player: Nikita Kucherov, date: 2024-10-22, Under 3.5, Price: 2.08, Kelly Bet: 0.36%
+Player: Dougie Hamilton, date: 2024-10-22, Under 3.5, Price: 1.69, Kelly Bet: 0.66%
+Player: Nico Hischier, date: 2024-10-22, Under 2.5, Price: 2.1, Kelly Bet: 0.85%
+Player: Jake Guentzel, date: 2024-10-22, Over 2.5, Price: 1.77, Kelly Bet: 6.96%
+Player: Brayden Point, date: 2024-10-22, Over 2.5, Price: 2.0, Kelly Bet: 1.93%
+Player: Victor Hedman, date: 2024-10-22, Under 2.5, Price: 1.69, Kelly Bet: 1.41%
+Player: Brandon Hagel, date: 2024-10-22, Over 1.5, Price: 1.57, Kelly Bet: 2.03%
+Player: Jack Hughes, date: 2024-10-22, Over 3.5, Price: 1.88, Kelly Bet: 5.53%
+Player: Tage Thompson, date: 2024-10-22, Over 3.5, Price: 2.32, Kelly Bet: 1.39%
+Player: Dylan Cozens, date: 2024-10-22, Over 2.5, Price: 2.08, Kelly Bet: 0.05%
+Player: JJ Peterka, date: 2024-10-22, Under 2.5, Price: 2.2, Kelly Bet: 4.50%
+Player: Rasmus Dahlin, date: 2024-10-22, Over 2.5, Price: 2.02, Kelly Bet: 1.76%
+Player: Jason Robertson, date: 2024-10-22, Over 2.5, Price: 1.83, Kelly Bet: 1.45%
+Player: Wyatt Johnston, date: 2024-10-22, Under 2.5, Price: 2.08, Kelly Bet: 4.70%
+Player: Matt Duchene, date: 2024-10-22, Over 1.5, Price: 1.69, Kelly Bet: 3.08%
+Player: Jason Zucker, date: 2024-10-22, Over 1.5, Price: 1.6, Kelly Bet: 0.21%
+No valid game log data available for player ID: 8483468 before date 2024-10-22 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8483468 before date 2024-10-22 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-22 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-22 for season 20222023.
+Logan Stankoven has less than 60 GP.
+Player: Mason Marchment, date: 2024-10-22, Under 1.5, Price: 2.46, Kelly Bet: 1.09%
+Player: Artemi Panarin, date: 2024-10-22, Under 3.5, Price: 2.01, Kelly Bet: 2.64%
+Player: Cole Caufield, date: 2024-10-22, Over 3.5, Price: 2.02, Kelly Bet: 1.72%
+Player: Nick Suzuki, date: 2024-10-22, Under 2.5, Price: 1.62, Kelly Bet: 0.56%
+Player: Mika Zibanejad, date: 2024-10-22, Under 2.5, Price: 2.26, Kelly Bet: 2.15%
+Player: Alexis Lafrenière, date: 2024-10-22, Under 2.5, Price: 2.2, Kelly Bet: 5.78%
+Player: Vincent Trocheck, date: 2024-10-22, Under 2.5, Price: 2.4, Kelly Bet: 4.66%
+Player: Chris Kreider, date: 2024-10-22, Under 2.5, Price: 2.4, Kelly Bet: 0.59%
+Player: Kirby Dach, date: 2024-10-22, Over 1.5, Price: 1.88, Kelly Bet: 1.57%
+Player: Adam Fox, date: 2024-10-22, Under 1.5, Price: 2.34, Kelly Bet: 1.44%
+Player: Auston Matthews, date: 2024-10-22, Under 4.5, Price: 2.1, Kelly Bet: 1.76%
+Player: Zach Werenski, date: 2024-10-22, Under 3.5, Price: 1.69, Kelly Bet: 5.22%
+Player: John Tavares, date: 2024-10-22, Over 3.5, Price: 2.25, Kelly Bet: 0.85%
+No valid game log data available for player ID: 8484166 before date 2024-10-22 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-22 for season 20222023.
+Adam Fantilli has less than 60 GP.
+Player: Kirill Marchenko, date: 2024-10-22, Under 2.5, Price: 1.91, Kelly Bet: 3.25%
+Player: Yegor Chinakhov, date: 2024-10-22, Under 2.5, Price: 1.91, Kelly Bet: 8.82%
+Player: Mitch Marner, date: 2024-10-22, Under 2.5, Price: 1.71, Kelly Bet: 0.71%
+Player: Morgan Rielly, date: 2024-10-22, Over 1.5, Price: 1.51, Kelly Bet: 0.14%
+Player: Sean Monahan, date: 2024-10-22, Under 2.5, Price: 1.71, Kelly Bet: 4.73%
+Player: Oliver Ekman-Larsson, date: 2024-10-22, Under 2.5, Price: 1.56, Kelly Bet: 12.44%
+Player: Cole Sillinger, date: 2024-10-22, Under 2.5, Price: 1.74, Kelly Bet: 7.86%
+Player: Matthew Knies, date: 2024-10-22, Under 1.5, Price: 2.18, Kelly Bet: 5.89%
+Player: Max Domi, date: 2024-10-22, Under 1.5, Price: 2.11, Kelly Bet: 0.31%
+Max Pacioretty has less than 60 GP.
+Max Pacioretty has less than 60 GP.
+Player: Nicholas Robertson, date: 2024-10-22, Under 1.5, Price: 2.16, Kelly Bet: 1.83%
+Player: Mathew Barzal, date: 2024-10-22, Under 2.5, Price: 2.3, Kelly Bet: 1.18%
+Player: Noah Dobson, date: 2024-10-22, Under 2.5, Price: 1.77, Kelly Bet: 2.52%
+Player: Anders Lee, date: 2024-10-22, Under 2.5, Price: 2.01, Kelly Bet: 4.19%
+Player: Alex DeBrincat, date: 2024-10-22, Under 2.5, Price: 2.36, Kelly Bet: 0.64%
+Player: Patrick Kane, date: 2024-10-22, Over 2.5, Price: 1.8, Kelly Bet: 0.21%
+Player: Moritz Seider, date: 2024-10-22, Under 1.5, Price: 2.35, Kelly Bet: 3.96%
+Player: Lucas Raymond, date: 2024-10-22, Under 2.5, Price: 1.74, Kelly Bet: 7.75%
+Player: Kyle Palmieri, date: 2024-10-22, Under 2.5, Price: 2.3, Kelly Bet: 3.96%
+Player: Vladimir Tarasenko, date: 2024-10-22, Under 2.5, Price: 1.64, Kelly Bet: 2.14%
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+Player: Justin Faulk, date: 2024-10-22, Under 2.5, Price: 1.61, Kelly Bet: 0.70%
+Player: Jordan Kyrou, date: 2024-10-22, Under 2.5, Price: 2.5, Kelly Bet: 0.01%
+Player: Brayden Schenn, date: 2024-10-22, Under 2.5, Price: 1.65, Kelly Bet: 3.77%
+Player: Robert Thomas, date: 2024-10-22, Under 1.5, Price: 2.5, Kelly Bet: 0.83%
+Player: Kyle Connor, date: 2024-10-22, Under 3.5, Price: 1.83, Kelly Bet: 1.05%
+Player: Nikolaj Ehlers, date: 2024-10-22, Under 2.5, Price: 2.3, Kelly Bet: 1.59%
+Player: Josh Morrissey, date: 2024-10-22, Under 2.5, Price: 1.95, Kelly Bet: 5.04%
+Player: Mark Scheifele, date: 2024-10-22, Under 2.5, Price: 1.69, Kelly Bet: 2.81%
+Player: Neal Pionk, date: 2024-10-22, Under 1.5, Price: 2.1, Kelly Bet: 0.01%
+Player: Gabriel Vilardi, date: 2024-10-22, Under 2.5, Price: 1.66, Kelly Bet: 0.66%
+Player: Jake Neighbours, date: 2024-10-22, Under 1.5, Price: 2.3, Kelly Bet: 1.09%
+Player: Nino Niederreiter, date: 2024-10-22, Under 2.5, Price: 1.65, Kelly Bet: 0.62%
+No valid game log data available for player ID: 8484144 before date 2024-10-22 for season 20222023.
+Player: Connor Bedard, date: 2024-10-22, Over 2.5, Price: 1.74, Kelly Bet: 0.21%
+No valid game log data available for player ID: 8484144 before date 2024-10-22 for season 20222023.
+Player: Seth Jones, date: 2024-10-22, Under 2.5, Price: 2.1, Kelly Bet: 2.62%
+Player: Brock Boeser, date: 2024-10-22, Under 2.5, Price: 1.95, Kelly Bet: 2.26%
+Player: Quinn Hughes, date: 2024-10-22, Under 2.5, Price: 2.1, Kelly Bet: 5.93%
+Player: J.T. Miller, date: 2024-10-22, Under 2.5, Price: 2.0, Kelly Bet: 3.56%
+Player: Elias Pettersson, date: 2024-10-22, Over 2.5, Price: 2.16, Kelly Bet: 0.53%
+Player: Tyler Bertuzzi, date: 2024-10-22, Under 2.5, Price: 1.65, Kelly Bet: 6.12%
+Player: Teuvo Teravainen, date: 2024-10-22, Under 2.5, Price: 1.71, Kelly Bet: 8.36%
+Player: Conor Garland, date: 2024-10-22, Under 2.5, Price: 2.15, Kelly Bet: 6.53%
+Player: Kiefer Sherwood, date: 2024-10-22, Under 1.5, Price: 2.14, Kelly Bet: 2.00%
+Player: Matty Beniers, date: 2024-10-22, Under 1.5, Price: 2.15, Kelly Bet: 0.24%
+Player: Jared McCann, date: 2024-10-22, Under 2.5, Price: 2.05, Kelly Bet: 1.06%
+Player: Brandon Montour, date: 2024-10-22, Under 2.5, Price: 2.2, Kelly Bet: 1.81%
+Player: Nathan MacKinnon, date: 2024-10-22, Over 4.5, Price: 2.26, Kelly Bet: 6.16%
+Player: Cale Makar, date: 2024-10-22, Under 3.5, Price: 1.65, Kelly Bet: 4.90%
+Player: Mikko Rantanen, date: 2024-10-22, Over 2.5, Price: 1.57, Kelly Bet: 2.85%
+Player: Ross Colton, date: 2024-10-22, Under 2.5, Price: 1.98, Kelly Bet: 12.72%
+Player: Casey Mittelstadt, date: 2024-10-22, Under 1.5, Price: 2.46, Kelly Bet: 5.62%
+Shane Wright has less than 60 GP.
+Shane Wright has less than 60 GP.
+Player: Miles Wood, date: 2024-10-22, Over 1.5, Price: 1.68, Kelly Bet: 4.64%
+Player: Josh Manson, date: 2024-10-22, Under 1.5, Price: 2.16, Kelly Bet: 3.67%
+Player: David Pastrnak, date: 2024-10-22, Over 3.5, Price: 1.65, Kelly Bet: 6.16%
+Player: Elias Lindholm, date: 2024-10-22, Over 1.5, Price: 1.64, Kelly Bet: 3.82%
+Player: Brad Marchand, date: 2024-10-22, Over 2.5, Price: 2.25, Kelly Bet: 0.42%
+Player: Charlie McAvoy, date: 2024-10-22, Under 1.5, Price: 2.2, Kelly Bet: 1.12%
+Player: Pavel Zacha, date: 2024-10-22, Under 1.5, Price: 2.42, Kelly Bet: 1.04%
+Player: Filip Forsberg, date: 2024-10-22, Under 4.5, Price: 1.72, Kelly Bet: 1.42%
+Player: Brady Skjei, date: 2024-10-22, Under 2.5, Price: 1.8, Kelly Bet: 1.38%
+Player: Luke Evangelista, date: 2024-10-22, Over 1.5, Price: 1.69, Kelly Bet: 4.35%
+Player: Leon Draisaitl, date: 2024-10-22, Over 2.5, Price: 2.2, Kelly Bet: 3.14%
+Player: Ryan Nugent-Hopkins, date: 2024-10-22, Over 2.5, Price: 2.6, Kelly Bet: 0.80%
+Player: Brent Burns, date: 2024-10-22, Over 1.5, Price: 1.51, Kelly Bet: 2.99%
+Player: Seth Jarvis, date: 2024-10-22, Under 2.5, Price: 1.65, Kelly Bet: 1.40%
+Player: Andrei Svechnikov, date: 2024-10-22, Under 2.5, Price: 2.2, Kelly Bet: 3.07%
+Player: Zach Hyman, date: 2024-10-22, Over 2.5, Price: 1.62, Kelly Bet: 5.59%
+Player: Connor McDavid, date: 2024-10-22, Over 2.5, Price: 1.61, Kelly Bet: 6.10%
+Player: Mattias Ekholm, date: 2024-10-22, Over 1.5, Price: 1.58, Kelly Bet: 1.39%
+Player: Jeff Skinner, date: 2024-10-22, Over 2.5, Price: 2.41, Kelly Bet: 7.97%
+Player: Viktor Arvidsson, date: 2024-10-22, Over 2.5, Price: 2.4, Kelly Bet: 8.20%
+No valid game log data available for player ID: 8483431 before date 2024-10-22 for season 20222023.
+Player: Logan Cooley, date: 2024-10-22, Under 1.5, Price: 2.4, Kelly Bet: 1.46%
+No valid game log data available for player ID: 8483431 before date 2024-10-22 for season 20222023.
+Player: Lawson Crouse, date: 2024-10-22, Over 1.5, Price: 1.71, Kelly Bet: 1.57%
+Player: Dylan Guenther, date: 2024-10-22, Under 2.5, Price: 2.15, Kelly Bet: 3.14%
+Player: Clayton Keller, date: 2024-10-22, Under 2.5, Price: 2.36, Kelly Bet: 1.21%
+Player: Nick Schmaltz, date: 2024-10-22, Under 2.5, Price: 1.69, Kelly Bet: 5.78%
+Player: Drake Batherson, date: 2024-10-22, Under 2.5, Price: 1.91, Kelly Bet: 0.82%
+Player: Claude Giroux, date: 2024-10-22, Over 1.5, Price: 1.61, Kelly Bet: 2.57%
+Player: Jake Sanderson, date: 2024-10-22, Under 2.5, Price: 1.62, Kelly Bet: 6.38%
+Player: Barrett Hayton, date: 2024-10-22, Under 2.5, Price: 1.6, Kelly Bet: 2.06%
+Player: Shane Pinto, date: 2024-10-22, Over 2.5, Price: 2.46, Kelly Bet: 1.75%
+Player: Mikhail Sergachev, date: 2024-10-22, Under 2.5, Price: 1.51, Kelly Bet: 10.63%
+Player: Blake Coleman, date: 2024-10-22, Under 2.5, Price: 2.14, Kelly Bet: 4.77%
+Player: Jonathan Huberdeau, date: 2024-10-22, Under 1.5, Price: 2.5, Kelly Bet: 4.53%
+Player: Nazem Kadri, date: 2024-10-22, Under 3.5, Price: 2.02, Kelly Bet: 4.28%
+Player: Andrei Kuzmenko, date: 2024-10-22, Under 1.5, Price: 2.28, Kelly Bet: 3.06%
+Player: Sidney Crosby, date: 2024-10-22, Over 2.5, Price: 1.61, Kelly Bet: 1.48%
+Player: Bryan Rust, date: 2024-10-22, Over 2.5, Price: 1.67, Kelly Bet: 0.31%
+Player: Evgeni Malkin, date: 2024-10-22, Over 2.5, Price: 2.25, Kelly Bet: 0.63%
+Player: MacKenzie Weegar, date: 2024-10-22, Under 2.5, Price: 2.08, Kelly Bet: 5.02%
+Player: Anthony Mantha, date: 2024-10-22, Under 1.5, Price: 2.18, Kelly Bet: 5.28%
+No valid game log data available for player ID: 8482074 before date 2024-10-22 for season 20222023.
+Player: Connor Zary, date: 2024-10-22, Under 1.5, Price: 2.3, Kelly Bet: 8.05%
+No valid game log data available for player ID: 8482074 before date 2024-10-22 for season 20222023.
+No valid game log data available for player ID: 8481028 before date 2024-10-22 for season 20222023.
+No valid game log data available for player ID: 8481028 before date 2024-10-22 for season 20222023.
+No valid game log data available for player ID: 8484153 before date 2024-10-22 for season 20222023.
+Player: Leo Carlsson, date: 2024-10-22, Under 1.5, Price: 2.5, Kelly Bet: 0.33%
+No valid game log data available for player ID: 8484153 before date 2024-10-22 for season 20222023.
+No valid game log data available for player ID: 8483445 before date 2024-10-22 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-22 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+Player: Mason McTavish, date: 2024-10-22, Under 1.5, Price: 2.42, Kelly Bet: 0.20%
+Player: Alex Killorn, date: 2024-10-22, Under 2.5, Price: 1.64, Kelly Bet: 2.88%
+Player: Troy Terry, date: 2024-10-22, Under 2.5, Price: 1.85, Kelly Bet: 3.89%
+Player: William Eklund, date: 2024-10-22, Under 1.5, Price: 2.5, Kelly Bet: 5.77%
+Player: Fabian Zetterlund, date: 2024-10-22, Under 2.5, Price: 1.91, Kelly Bet: 3.62%
+Player: Mikael Granlund, date: 2024-10-22, Under 2.5, Price: 1.65, Kelly Bet: 7.31%
+Player: Jake Walman, date: 2024-10-22, Under 2.5, Price: 1.77, Kelly Bet: 11.59%
+Player: Trevor Zegras, date: 2024-10-22, Under 2.5, Price: 1.8, Kelly Bet: 2.18%
+Player: Barclay Goodrow, date: 2024-10-22, Under 1.5, Price: 2.02, Kelly Bet: 19.29%
+Player: Cam Fowler, date: 2024-10-22, Under 1.5, Price: 2.08, Kelly Bet: 8.66%
+Player: Frank Vatrano, date: 2024-10-22, Over 2.5, Price: 1.65, Kelly Bet: 0.56%
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20222023.
+Will Smith has less than 60 GP.
+Player: Jack Eichel, date: 2024-10-22, Over 3.5, Price: 1.91, Kelly Bet: 4.17%
+Player: Quinton Byfield, date: 2024-10-22, Under 1.5, Price: 2.5, Kelly Bet: 0.67%
+Player: Adrian Kempe, date: 2024-10-22, Under 3.5, Price: 1.68, Kelly Bet: 2.31%
+Player: Trevor Moore, date: 2024-10-22, Over 2.5, Price: 1.8, Kelly Bet: 0.56%
+Player: Alex Pietrangelo, date: 2024-10-22, Over 1.5, Price: 1.65, Kelly Bet: 2.89%
+No valid game log data available for player ID: 8482155 before date 2024-10-22 for season 20222023.
+Player: Alex Laferriere, date: 2024-10-22, Under 2.5, Price: 1.57, Kelly Bet: 6.84%
+No valid game log data available for player ID: 8482155 before date 2024-10-22 for season 20222023.
+Player: Noah Hanifin, date: 2024-10-22, Over 1.5, Price: 1.74, Kelly Bet: 1.55%
+Player: Warren Foegele, date: 2024-10-22, Over 1.5, Price: 1.62, Kelly Bet: 6.94%
+No valid game log data available for player ID: 8484144 before date 2024-10-11 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-11 for season 20222023.
+No valid game log data available for player ID: 8484166 before date 2024-10-15 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-15 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-15 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-15 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-15 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20222023.
+Samuel Honzek has less than 60 GP.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484180 before date 2024-10-15 for season 20222023.
+Samuel Honzek has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-15 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-16 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8483431 before date 2024-10-16 for season 20222023.
+No valid game log data available for player ID: 8483431 before date 2024-10-16 for season 20222023.
+No valid game log data available for player ID: 8483445 before date 2024-10-16 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-16 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-16 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-16 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-17 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-17 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-17 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-17 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-17 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-18 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-18 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-18 for season 20222023.
+Leo Carlsson has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-18 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-18 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20232024.
+No valid game log data available for player ID: 8484221 before date 2024-10-18 for season 20222023.
+Calum Ritchie has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-19 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-19 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-19 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-19 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-19 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-19 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-10-19 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-19 for season 20222023.
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-22 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8483468 before date 2024-10-22 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8483468 before date 2024-10-22 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-22 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-22 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-22 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-22 for season 20222023.
+Adam Fantilli has less than 60 GP.
+Max Pacioretty has less than 60 GP.
+Max Pacioretty has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-22 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-10-22 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-22 for season 20222023.
+Shane Wright has less than 60 GP.
+Shane Wright has less than 60 GP.
+No valid game log data available for player ID: 8484153 before date 2024-10-22 for season 20222023.
+No valid game log data available for player ID: 8484153 before date 2024-10-22 for season 20222023.
+No valid game log data available for player ID: 8483445 before date 2024-10-22 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-22 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20222023.
+Will Smith has less than 60 GP.
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20232024.
+No valid game log data available for player ID: 8484227 before date 2024-10-22 for season 20222023.
+Will Smith has less than 60 GP.
+CSV file modelled_likelihoods_2024-10-22.csv created at /Users/alexmann/Documents/Code_Learning/nhl_fromscratch/modelled_likelihoods_2024-10-22.csv.
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 68, '242.18', '89.48', '96.90']
+[3, '2024-10-16', 26, '111.52', '96.90', '83.72']
+[4, '2024-10-17', 74, '228.27', '83.72', '103.72']
+[5, '2024-10-18', 27, '125.96', '103.72', '77.92']
+[6, '2024-10-19', 92, '255.06', '77.92', '70.78']
+[7, '2024-10-20', 5, '14.44', '70.78', '83.63']
+[8, '2024-10-21', 7, '24.56', '83.63', '92.56']
