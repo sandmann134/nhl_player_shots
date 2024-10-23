@@ -16,10 +16,7 @@ url2 = "https://statsapi.web.nhl.com/api/v1"
 # player = 'Mitch Marner'
 
 # Define the weights for the seasons
-x_10 = 5
-x_2024 = 3
-x_2023 = 2
-x_2022 = 1
+
 
 def plot_shots_histogram(shots, title, ylabel):
     plt.hist(shots, bins=range(min(shots), max(shots) + 2), edgecolor='black', align='left')
@@ -172,7 +169,7 @@ def calculate_likelihoods(shots, weighted_shots, over_under, shots_threshold):
 def kelly_criterion(probability, odds):
     return probability - (1 - probability) / (odds - 1)
 
-def fetch_and_store_player_data():
+def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1):
     # Connect to the SQLite database
 
     # Get the directory of the current script
@@ -242,7 +239,7 @@ def fetch_and_store_player_data():
                 if cursor.fetchone() is None and date_b == date:
                     normal_likelihood, poisson_likelihood, raw_data_likelihood, weighted_likelihood = calculate_likelihoods(shots, weighted_shots, over_under, points)
                     implied_likelihood = 1/price
-                    poisson_kelly = kelly_criterion(poisson_likelihood, price) / 3
+                    poisson_kelly = kelly_criterion(poisson_likelihood, price) / 4
 
                     cursor.execute('''
                     INSERT INTO modelled_likelihoods (player_name, date, over_under, points, implied_likelihood, normal_likelihood, poisson_likelihood, raw_data_likelihood, weighted_likelihood, poisson_kelly)

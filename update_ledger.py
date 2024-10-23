@@ -1,9 +1,12 @@
 import os
 import sqlite3
+import sys
+print(f"Python interpreter: {sys.executable}")
 import requests # type: ignore
 import datetime
 from player_api import get_player_id
 from config import DATABASE
+
 
 # Constants
 INITIAL_BANKROLL = 100
@@ -60,7 +63,7 @@ def update_ledger():
     cursor = conn.cursor()
 
     # Get the days that have not been updated
-    cursor.execute("SELECT DISTINCT date FROM modelled_likelihoods WHERE date <= ? AND date NOT IN (SELECT DISTINCT date FROM daily_ledger_best_book)", (yesterday,))
+    cursor.execute("SELECT DISTINCT date FROM modelled_likelihoods WHERE date <= ? AND date NOT IN (SELECT DISTINCT date FROM daily_ledger_scaled)", (yesterday,))
     dates_to_update = cursor.fetchall()
 
     for date in dates_to_update:
@@ -68,7 +71,7 @@ def update_ledger():
 
         # Initialize bankroll
         # Get the most recent bankroll from the ledger table
-        cursor.execute("SELECT final_dollar_value FROM daily_ledger_best_book ORDER BY date DESC LIMIT 1")
+        cursor.execute("SELECT final_dollar_value FROM daily_ledger_scaled ORDER BY date DESC LIMIT 1")
         result = cursor.fetchone()
         if result:
             bankroll_bestbook_0 = result[0]
@@ -78,7 +81,7 @@ def update_ledger():
         cursor.execute('''
             SELECT player_name, date, implied_likelihood, points, over_under, poisson_kelly
             FROM modelled_likelihoods
-            WHERE date = ?
+            WHERE date = ? AND poisson_kelly > 0.01
         ''', (date,))
         best_bets = cursor.fetchall()
 
@@ -86,17 +89,35 @@ def update_ledger():
         daily_earnings_bb = 0
         num_bets_bb = 0
         wager_sum_bb = 0
+        scaling_factor = 1
+        two_percent_min = 0
+        # Calculate the sum of poisson_kelly for all entries in best_bets
+        # Checking sum of all suggested bets to see if total suggested volume is greater than bankroll
+        # if so, option A is only use bets > 2% of bankroll, if that's not significant enough, option B is to scale all bets down
+        if sum(bet[5] for bet in best_bets) > 1:
+            print(f"WARNING: Sum of suggested bets for date {date} is greater than bankroll.")
+            if sum(bet[5] for bet in best_bets if bet[5] > 0.02) < 1:
+                print(f"WARNING: Only using {date} suggested bets > 2% of bankroll to reduce bet volume below 100%.")
+                two_percent_min = 1
+            else:
+                scaling_factor = 1 / sum(bet[5] for bet in best_bets)
+                print(f"WARNING: Scaling all suggested bets for date {date} by {scaling_factor:.2f} to reduce bet volume below 100%.")
+        
         for bet in best_bets:
             player_name, date, implied_likelihood, points, over_under, poisson_kelly = bet
 
-            if poisson_kelly > 0.01:
+            if two_percent_min == 1:
+                min_pc_bet = 0.02
+            else:
+                min_pc_bet = 0.01
+            if poisson_kelly*scaling_factor > min_pc_bet:
                 # Get actual shots
                 teams = teams_from_date_and_player(date, player_name, cursor)
                 player_id = get_player_id(teams[0], teams[1], player_name)
                 actual_shots = get_actual_shots(player_id, date)
 
                 # Calculate bet amount
-                bet_amount = bankroll_bestbook_0 * poisson_kelly
+                bet_amount = bankroll_bestbook_0 * poisson_kelly * scaling_factor
                 
                 # Update the number of bets and total wagered
                 num_bets_bb += 1
@@ -114,7 +135,7 @@ def update_ledger():
 
         # Update the daily_ledger_best_book table
         cursor.execute('''
-        INSERT INTO daily_ledger_best_book (date, number_of_bets_suggested, dollar_value_of_bets_suggested, initial_dollar_value, final_dollar_value)
+        INSERT INTO daily_ledger_scaled (date, number_of_bets_suggested, dollar_value_of_bets_suggested, initial_dollar_value, final_dollar_value)
         VALUES (?, ?, ?, ?, ?)
         ''', (date, num_bets_bb, wager_sum_bb, bankroll_bestbook_0, bankroll_bestbook_f))
         conn.commit()
@@ -138,13 +159,10 @@ if __name__ == "__main__":
     # print both ledgers:
     conn = sqlite3.connect(os.path.join(script_dir, DATABASE))
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM daily_ledger_best_book")
-    print("Best Book Ledger:")
+    cursor.execute("SELECT * FROM daily_ledger_scaled")
+    print("Scaled Ledger:")
     rows = cursor.fetchall()
     for row in rows:
         formatted_row = [f"{x:.2f}" if isinstance(x, float) else x for x in row]
         print(formatted_row)
-    cursor.execute("SELECT * FROM daily_ledger_draftkings")
-    print("DraftKings Ledger:")
-    print(cursor.fetchall())
     conn.close()

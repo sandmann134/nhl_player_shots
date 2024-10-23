@@ -82,4 +82,5 @@ def main():
     print_ledger("daily_ledger_best_book")
 
 if __name__ == "__main__":
-    main()
+    #main()
+    delete_table_fr_db("daily_ledger_scaled")

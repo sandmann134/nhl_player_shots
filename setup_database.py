@@ -51,5 +51,16 @@ CREATE TABLE IF NOT EXISTS daily_ledger_best_book (
 )
 ''')
 
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS daily_ledger_scaled (
+    id INTEGER PRIMARY KEY,
+    date TEXT,
+    number_of_bets_suggested INTEGER,
+    dollar_value_of_bets_suggested REAL,
+    initial_dollar_value REAL,
+    final_dollar_value REAL
+)
+''')
+
 conn.commit()
 conn.close()
