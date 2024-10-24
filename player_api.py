@@ -82,6 +82,17 @@ def get_player_id(team1, team2, player):
     player_id = search_player_in_team(team2_id)
     if player_id:
         return player_id
+    
+    # If player first name Nicholas, try Nick + last name instead
+    if player.split()[0].lower() == 'nicholas':
+        player = 'Nick ' + player.split()[1]
+        player_id = search_player_in_team(team1_id)
+        if player_id:
+            return player_id
+        player_id = search_player_in_team(team2_id)
+        if player_id:
+            return player_id
+
 
     print(f"Player {player} not found in either team {team1} ({team1_id}) or team {team2} ({team2_id}) roster.")
     return None  

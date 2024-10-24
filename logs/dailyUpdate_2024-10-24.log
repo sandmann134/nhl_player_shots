@@ -1,0 +1,43 @@
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Odds for today are already in the database.
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+Player Nicholas Paul not found in either team Tampa Bay Lightning (TBL) or team Minnesota Wild (MIN) roster.
+Player Nicholas Paul not found in either team Tampa Bay Lightning (TBL) or team Minnesota Wild (MIN) roster.
+Python interpreter: /Users/alexmann/.pyenv/versions/3.9.16/bin/python3
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+Player Nicholas Paul not found in either team Tampa Bay Lightning (TBL) or team Minnesota Wild (MIN) roster.
+Player Nicholas Paul not found in either team Tampa Bay Lightning (TBL) or team Minnesota Wild (MIN) roster.
+CSV file modelled_likelihoods_2024-10-24.csv created at /Users/alexmann/Documents/Code_Learning/nhl_fromscratch/daily_odds/modelled_likelihoods_2024-10-24.csv.
+WARNING: Sum of suggested bets for date 2024-10-15 is greater than bankroll.
+WARNING: Scaling all suggested bets for date 2024-10-15 by 0.37 to reduce bet volume below 100%.
+Player Nicholas Paul not found in either team Tampa Bay Lightning (TBL) or team Vancouver Canucks (VAN) roster.
+Request to https://api-web.nhle.com/v1/player/None/game-log/20242025/2 failed with status code 404
+Traceback (most recent call last):
+  File "/Users/alexmann/Documents/Code_Learning/nhl_fromscratch/main.py", line 86, in <module>
+    main()
+  File "/Users/alexmann/Documents/Code_Learning/nhl_fromscratch/main.py", line 81, in main
+    update_ledger()
+  File "/Users/alexmann/Documents/Code_Learning/nhl_fromscratch/update_ledger.py", line 127, in update_ledger
+    if (over_under == 'Over' and actual_shots > points) or (over_under == 'Under' and actual_shots < points):
+TypeError: '<' not supported between instances of 'list' and 'float'
