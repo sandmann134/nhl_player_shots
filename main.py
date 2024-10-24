@@ -80,6 +80,7 @@ def main():
     # Update Best Book Ledger, print updated ledger:
     update_ledger()
     print_ledger("daily_ledger_best_book")
+    print_ledger("daily_ledger_scaled")
 
 if __name__ == "__main__":
     #main()

@@ -184,6 +184,7 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1):
     LEFT JOIN modelled_likelihoods ml
     ON pso.player_name = ml.player_name AND pso.over_under = ml.over_under AND pso.date = ml.date AND pso.points = ml.points
     WHERE ml.player_name IS NULL
+    AND pso.date > (SELECT MAX(date) FROM daily_ledger_best_book)
     """)
     players = cursor.fetchall()
 
