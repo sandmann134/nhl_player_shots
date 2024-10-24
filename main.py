@@ -83,5 +83,5 @@ def main():
     print_ledger("daily_ledger_scaled")
 
 if __name__ == "__main__":
-    #main()
-    delete_table_fr_db("daily_ledger_scaled")
+    main()
+    #delete_table_fr_db("daily_ledger_scaled")
