@@ -1,0 +1,254 @@
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing Anaheim Ducks at New York Islanders, ID: 3297a7cb75ea8a0cd27c68ce0a7ef3bd
+Processing Philadelphia Flyers at Boston Bruins, ID: bee37681a266d59f7455f7a4fc9a1a9b
+Processing Minnesota Wild at Pittsburgh Penguins, ID: 7620a018b2c1625b82ed83078d422e74
+Processing Seattle Kraken at Montréal Canadiens, ID: f7083fa8038a83266b8b69f3cc4822aa
+Processing St Louis Blues at Ottawa Senators, ID: 5ad326ab68964c46cbef546fb8e55e18
+Processing New York Rangers at Washington Capitals, ID: 72e83dbf49cee39336def3ced19490bc
+Processing Los Angeles Kings at San Jose Sharks, ID: b53f130dfecfa7138241f85360af55a3
+Player: Adrian Kempe
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.35, Points: 3.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.57, Points: 3.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.3, Points: 3.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.59, Points: 3.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.3, Points: 3.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.54, Points: 3.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Alex Laferriere
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.2, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.65, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.26, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.61, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.2, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.61, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Fabian Zetterlund
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.24, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.62, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.12, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.68, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.05, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.69, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Jake Walman
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.5, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.51, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.42, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.53, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.45, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.5, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Kevin Fiala
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.77, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 2.0, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.74, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 2.04, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.77, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.95, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Mikael Granlund
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.24, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.62, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.3, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.59, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.2, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.62, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Phillip Danault
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.62, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 2.24, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.57, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 2.32, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.61, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 2.25, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Quinton Byfield
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.35, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.57, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.34, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.57, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.3, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.57, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Trevor Moore
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.77, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 2.0, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.71, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 2.08, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.77, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.95, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Tyler Toffoli
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.83, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.91, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.77, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 2.0, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.8, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.91, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: Warren Foegele
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.2, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.65, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.16, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.66, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.2, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.61, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Player: William Eklund
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.53, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: DraftKings, Over/Under: Under, Price: 2.45, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.54, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.48, Points: 2.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.5, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+  Bookmaker: BetMGM, Over/Under: Under, Price: 2.45, Points: 1.5, Home Team: San Jose Sharks, Away Team: Los Angeles Kings
+Used requests: 141
+Remaining requests: 359
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Fetching and storing player data with weights: x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1
+Using ledger: daily_ledger_scaled, model table: modelled_likelihoods
+Found 230 players to model.
+No valid game log data available for player ID: 8483468 before date 2024-10-28 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8483468 before date 2024-10-28 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-28 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-28 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-10-28 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-28 for season 20222023.
+Player: Anders Lee, date: 2024-10-29, Under 2.5, Price: 2.06, Kelly Bet: 3.13%
+Player: Bo Horvat, date: 2024-10-29, Under 3.5, Price: 1.65, Kelly Bet: 2.24%
+No valid game log data available for player ID: 8483445 before date 2024-10-29 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-29 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+Player: Kyle Palmieri, date: 2024-10-29, Under 3.5, Price: 1.62, Kelly Bet: 7.09%
+No valid game log data available for player ID: 8484153 before date 2024-10-29 for season 20222023.
+No valid game log data available for player ID: 8484153 before date 2024-10-29 for season 20222023.
+Player: Mathew Barzal, date: 2024-10-29, Under 2.5, Price: 2.29, Kelly Bet: 0.92%
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+Player: Noah Dobson, date: 2024-10-29, Under 2.5, Price: 2.22, Kelly Bet: 6.02%
+Player: Trevor Zegras, date: 2024-10-29, Over 2.5, Price: 2.5, Kelly Bet: 0.24%
+Player: Troy Terry, date: 2024-10-29, Under 2.5, Price: 1.72, Kelly Bet: 0.31%
+Player: Frank Vatrano, date: 2024-10-29, Over 2.5, Price: 1.76, Kelly Bet: 2.91%
+Player: Elias Lindholm, date: 2024-10-29, Over 1.5, Price: 1.57, Kelly Bet: 1.00%
+Player: Charlie McAvoy, date: 2024-10-29, Under 1.5, Price: 2.16, Kelly Bet: 0.64%
+No valid game log data available for player ID: 8476461 before date 2024-10-29 for season 20222023.
+Player: Sean Couturier, date: 2024-10-29, Over 1.5, Price: 1.5, Kelly Bet: 3.69%
+No valid game log data available for player ID: 8476461 before date 2024-10-29 for season 20222023.
+Player: Brad Marchand, date: 2024-10-29, Over 2.5, Price: 2.26, Kelly Bet: 0.83%
+Player: David Pastrnak, date: 2024-10-29, Over 3.5, Price: 1.69, Kelly Bet: 5.76%
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20222023.
+Matvei Michkov has less than 60 GP.
+Player: Morgan Frost, date: 2024-10-29, Under 1.5, Price: 2.42, Kelly Bet: 0.08%
+Player: Scott Laughton, date: 2024-10-29, Over 1.5, Price: 1.82, Kelly Bet: 2.39%
+Player: Travis Sanheim, date: 2024-10-29, Under 1.5, Price: 2.33, Kelly Bet: 1.09%
+Player: Drew O'Connor, date: 2024-10-29, Under 1.5, Price: 2.54, Kelly Bet: 1.08%
+Player: Erik Karlsson, date: 2024-10-29, Under 2.5, Price: 1.87, Kelly Bet: 0.01%
+Player: Evgeni Malkin, date: 2024-10-29, Under 2.5, Price: 1.8, Kelly Bet: 0.14%
+Player: Joel Eriksson Ek, date: 2024-10-29, Over 2.5, Price: 1.65, Kelly Bet: 2.81%
+Player: Kirill Kaprizov, date: 2024-10-29, Under 3.5, Price: 2.11, Kelly Bet: 1.37%
+Player: Mats Zuccarello, date: 2024-10-29, Under 2.5, Price: 1.94, Kelly Bet: 1.65%
+Player: Matt Boldy, date: 2024-10-29, Under 3.5, Price: 1.65, Kelly Bet: 1.22%
+Player: Rickard Rakell, date: 2024-10-29, Under 2.5, Price: 1.83, Kelly Bet: 0.65%
+Player: Brandon Montour, date: 2024-10-29, Under 2.5, Price: 2.37, Kelly Bet: 3.12%
+Player: Cole Caufield, date: 2024-10-29, Over 3.5, Price: 2.32, Kelly Bet: 3.38%
+Player: Jaden Schwartz, date: 2024-10-29, Under 1.5, Price: 2.46, Kelly Bet: 1.32%
+Player: Jared McCann, date: 2024-10-29, Under 2.5, Price: 2.35, Kelly Bet: 3.56%
+Player: Joel Armia, date: 2024-10-29, Over 1.5, Price: 1.71, Kelly Bet: 1.24%
+Player: Jordan Eberle, date: 2024-10-29, Under 2.5, Price: 1.62, Kelly Bet: 1.84%
+Player: Matty Beniers, date: 2024-10-29, Under 1.5, Price: 2.42, Kelly Bet: 2.05%
+Player: Mike Matheson, date: 2024-10-29, Over 1.5, Price: 1.69, Kelly Bet: 3.58%
+Shane Wright has less than 60 GP.
+Shane Wright has less than 60 GP.
+Player: Brandon Saad, date: 2024-10-29, Under 1.5, Price: 2.34, Kelly Bet: 1.68%
+Player: Brayden Schenn, date: 2024-10-29, Under 2.5, Price: 1.65, Kelly Bet: 3.11%
+Player: Drake Batherson, date: 2024-10-29, Under 2.5, Price: 2.1, Kelly Bet: 3.39%
+Player: Jake Neighbours, date: 2024-10-29, Under 1.5, Price: 2.4, Kelly Bet: 1.32%
+Player: Jake Sanderson, date: 2024-10-29, Under 2.5, Price: 1.56, Kelly Bet: 3.76%
+Player: Jordan Kyrou, date: 2024-10-29, Under 3.5, Price: 1.62, Kelly Bet: 0.35%
+Player: Josh Norris, date: 2024-10-29, Under 2.5, Price: 1.71, Kelly Bet: 2.79%
+Player: Justin Faulk, date: 2024-10-29, Over 1.5, Price: 1.61, Kelly Bet: 0.19%
+Player: Noah Gregor, date: 2024-10-29, Under 1.5, Price: 2.36, Kelly Bet: 1.75%
+Player: Adam Fox, date: 2024-10-29, Under 1.5, Price: 2.36, Kelly Bet: 1.11%
+Player: Alex Ovechkin, date: 2024-10-29, Over 3.5, Price: 2.24, Kelly Bet: 0.49%
+Player: Alexis Lafrenière, date: 2024-10-29, Under 2.5, Price: 2.05, Kelly Bet: 3.03%
+Player: Dylan Strome, date: 2024-10-29, Under 2.5, Price: 1.6, Kelly Bet: 2.87%
+Player: Jakob Chychrun, date: 2024-10-29, Over 2.5, Price: 2.26, Kelly Bet: 0.58%
+Player: John Carlson, date: 2024-10-29, Under 2.5, Price: 1.83, Kelly Bet: 3.16%
+Player: Mika Zibanejad, date: 2024-10-29, Over 2.5, Price: 2.06, Kelly Bet: 1.56%
+Player: Pierre-Luc Dubois, date: 2024-10-29, Under 1.5, Price: 2.42, Kelly Bet: 0.52%
+Player: Tom Wilson, date: 2024-10-29, Under 2.5, Price: 1.71, Kelly Bet: 0.83%
+Player: Vincent Trocheck, date: 2024-10-29, Under 2.5, Price: 2.14, Kelly Bet: 1.82%
+No valid game log data available for player ID: 8482155 before date 2024-10-29 for season 20222023.
+Player: Alex Laferriere, date: 2024-10-29, Under 2.5, Price: 1.65, Kelly Bet: 6.68%
+No valid game log data available for player ID: 8482155 before date 2024-10-29 for season 20222023.
+Player: Jake Walman, date: 2024-10-29, Under 2.5, Price: 1.53, Kelly Bet: 3.08%
+Player: Mikael Granlund, date: 2024-10-29, Under 2.5, Price: 1.62, Kelly Bet: 3.02%
+Player: Quinton Byfield, date: 2024-10-29, Under 2.5, Price: 1.57, Kelly Bet: 2.92%
+Player: Tyler Toffoli, date: 2024-10-29, Over 2.5, Price: 1.83, Kelly Bet: 1.25%
+Player: William Eklund, date: 2024-10-29, Under 1.5, Price: 2.45, Kelly Bet: 4.04%
+Python interpreter: /Users/alexmann/.pyenv/versions/3.9.16/bin/python3
+Fetching and storing player data with weights: x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1
+Using ledger: daily_ledger_scaled, model table: modelled_likelihoods
+Found 60 players to model.
+No valid game log data available for player ID: 8483468 before date 2024-10-28 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8483468 before date 2024-10-28 for season 20222023.
+Jiri Kulich has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-28 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-28 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-10-28 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-28 for season 20222023.
+No valid game log data available for player ID: 8483445 before date 2024-10-29 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-29 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484958 before date 2024-10-29 for season 20222023.
+Maxim Tsyplakov has less than 60 GP.
+No valid game log data available for player ID: 8476461 before date 2024-10-29 for season 20222023.
+No valid game log data available for player ID: 8476461 before date 2024-10-29 for season 20222023.
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-29 for season 20222023.
+Matvei Michkov has less than 60 GP.
+Shane Wright has less than 60 GP.
+Shane Wright has less than 60 GP.
+CSV file modelled_likelihoods_2024-10-29.csv created at /Users/alexmann/Documents/Code_Learning/nhl_fromscratch/daily_odds/modelled_likelihoods_2024-10-29.csv.
+WARNING: Sum of suggested bets for date 2024-10-28 is greater than bankroll.
+WARNING: Scaling all suggested bets for date 2024-10-28 by 0.58 to reduce bet volume below 100%.
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 68, '242.18', '89.48', '96.90']
+[3, '2024-10-16', 26, '111.52', '96.90', '83.72']
+[4, '2024-10-17', 74, '228.27', '83.72', '103.72']
+[5, '2024-10-18', 27, '125.96', '103.72', '77.92']
+[6, '2024-10-19', 92, '255.06', '77.92', '70.78']
+[7, '2024-10-20', 5, '14.44', '70.78', '83.63']
+[8, '2024-10-21', 7, '24.56', '83.63', '92.56']
+[9, '2024-10-22', 119, '457.40', '92.56', '76.09']
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 46, '75.72', '89.48', '89.68']
+[3, '2024-10-16', 24, '88.09', '89.68', '77.24']
+[4, '2024-10-17', 45, '62.52', '77.24', '80.25']
+[5, '2024-10-18', 27, '79.52', '80.25', '64.91']
+[6, '2024-10-19', 43, '45.81', '64.91', '64.25']
+[7, '2024-10-20', 5, '13.11', '64.25', '75.91']
+[8, '2024-10-21', 7, '22.30', '75.91', '84.02']
+[9, '2024-10-22', 39, '48.96', '84.02', '78.99']
+[10, '2024-10-23', 7, '20.05', '78.99', '76.37']
+[11, '2024-10-24', 36, '68.50', '76.37', '88.73']
+[12, '2024-10-25', 18, '40.38', '88.73', '105.04']
+[13, '2024-10-26', 46, '87.79', '105.04', '113.67']
+[14, '2024-10-27', 30, '98.46', '113.67', '120.33']
+[15, '2024-10-28', 39, '105.53', '120.33', '114.69']

@@ -4,6 +4,7 @@ import sys
 print(f"Python interpreter: {sys.executable}")
 import requests # type: ignore
 import datetime
+from tenacity import retry, stop_after_attempt, wait_exponential
 from player_api import get_player_id
 from config import DATABASE
 
@@ -16,6 +17,7 @@ SEASON = "20242025"
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
+@retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=1, min=2, max=15))
 def teams_from_date_and_player(date, player_name, cursor):
     # find the teams from the date and player_name in the player_shots_odds table
     cursor.execute("SELECT DISTINCT home_team, away_team FROM player_shots_odds WHERE date = ? AND player_name = ?", (date, player_name))
@@ -26,6 +28,7 @@ def teams_from_date_and_player(date, player_name, cursor):
         return None, None
 
 # Function to get the actual shots from the NHL API
+@retry(stop=stop_after_attempt(5), wait=wait_exponential(multiplier=1, min=2, max=15))
 def get_actual_shots(player_id, date):
     season_url = f"{BASE_URL}/player/{player_id}/game-log/{SEASON}/2"
     response = requests.get(season_url)
@@ -51,7 +54,7 @@ def get_actual_shots(player_id, date):
 
 
 # Function to update the ledger
-def update_ledger():
+def update_ledger(ledger_name='daily_ledger_scaled', model_table='modelled_likelihoods', truncate_bets=0):   
     today = datetime.date.today()
     yesterday = today - datetime.timedelta(days=1)
 
@@ -63,24 +66,24 @@ def update_ledger():
     cursor = conn.cursor()
 
     # Get the days that have not been updated
-    cursor.execute("SELECT DISTINCT date FROM modelled_likelihoods WHERE date <= ? AND date NOT IN (SELECT DISTINCT date FROM daily_ledger_scaled)", (yesterday,))
+    cursor.execute(f"SELECT DISTINCT date FROM {model_table} WHERE date <= ? AND date NOT IN (SELECT DISTINCT date FROM {ledger_name})", (yesterday,))
     dates_to_update = cursor.fetchall()
 
     for date in dates_to_update:
         date = date[0]
-
+        trunc = 0
         # Initialize bankroll
         # Get the most recent bankroll from the ledger table
-        cursor.execute("SELECT final_dollar_value FROM daily_ledger_scaled ORDER BY date DESC LIMIT 1")
+        cursor.execute(f"SELECT final_dollar_value FROM {ledger_name} ORDER BY date DESC LIMIT 1")
         result = cursor.fetchone()
         if result:
             bankroll_bestbook_0 = result[0]
         else:
             bankroll_bestbook_0 = INITIAL_BANKROLL
 
-        cursor.execute('''
+        cursor.execute(f'''
             SELECT player_name, date, implied_likelihood, points, over_under, poisson_kelly
-            FROM modelled_likelihoods
+            FROM {model_table}
             WHERE date = ? AND poisson_kelly > 0.01
         ''', (date,))
         best_bets = cursor.fetchall()
@@ -99,10 +102,19 @@ def update_ledger():
             if sum(bet[5] for bet in best_bets if bet[5] > 0.02) < 1:
                 print(f"WARNING: Only using {date} suggested bets > 2% of bankroll to reduce bet volume below 100%.")
                 two_percent_min = 1
+            elif truncate_bets == 1:
+                trunc = 1
+                print(f"WARNING: Truncating all suggested bets for date {date} to reduce bet volume below 100%.")
             else:
                 scaling_factor = 1 / sum(bet[5] for bet in best_bets)
                 print(f"WARNING: Scaling all suggested bets for date {date} by {scaling_factor:.2f} to reduce bet volume below 100%.")
         
+        if trunc == 1:
+            best_bets = sorted(best_bets, key=lambda x: x[5], reverse=True)
+            #print("Sorted Poisson Kelly values (descending):")
+            #for bet in best_bets:
+            #    print(bet[5])
+
         for bet in best_bets:
             player_name, date, implied_likelihood, points, over_under, poisson_kelly = bet
 
@@ -113,7 +125,11 @@ def update_ledger():
             if poisson_kelly*scaling_factor > min_pc_bet:
                 # Get actual shots
                 teams = teams_from_date_and_player(date, player_name, cursor)
-                player_id = get_player_id(teams[0], teams[1], player_name)
+                player_info = get_player_id(teams[0], teams[1], player_name)
+                if player_info is None or len(player_info) == 0:
+                    print(f"Skipping player {player_name} as player_id is None.")
+                    continue
+                player_id = player_info[0]
                 actual_shots = get_actual_shots(player_id, date)
 
                 # Calculate bet amount
@@ -121,6 +137,9 @@ def update_ledger():
                 
                 # Update the number of bets and total wagered
                 num_bets_bb += 1
+                if wager_sum_bb + bet_amount > bankroll_bestbook_0:
+                    print(f"Threshold reached at Poisson Kelly: {poisson_kelly}, Number of bets: {num_bets_bb} for date: {date}")
+                    break
                 wager_sum_bb += bet_amount
 
                 # Determine win or loss based on actual shots and over_under
@@ -131,11 +150,12 @@ def update_ledger():
                 elif actual_shots != -1:
                     daily_earnings_bb -= bet_amount
                 #print(f"Player: {player_name}, Date: {date}, Actual Shots: {actual_shots}, o/u: {over_under} {points}, Bet Amount: {bet_amount:.2f}")
+        
         bankroll_bestbook_f = bankroll_bestbook_0 + daily_earnings_bb
 
         # Update the daily_ledger_best_book table
-        cursor.execute('''
-        INSERT INTO daily_ledger_scaled (date, number_of_bets_suggested, dollar_value_of_bets_suggested, initial_dollar_value, final_dollar_value)
+        cursor.execute(f'''
+        INSERT INTO {ledger_name} (date, number_of_bets_suggested, dollar_value_of_bets_suggested, initial_dollar_value, final_dollar_value)
         VALUES (?, ?, ?, ?, ?)
         ''', (date, num_bets_bb, wager_sum_bb, bankroll_bestbook_0, bankroll_bestbook_f))
         conn.commit()
@@ -147,7 +167,7 @@ def print_ledger(ledger):
     conn = sqlite3.connect(os.path.join(script_dir, DATABASE))
     cursor = conn.cursor()
     cursor.execute(f"SELECT * FROM {ledger}")
-    print("Updated Ledger:")
+    print(f"Updated Ledger ({ledger}):")
     rows = cursor.fetchall()
     for row in rows:
         formatted_row = [f"{x:.2f}" if isinstance(x, float) else x for x in row]

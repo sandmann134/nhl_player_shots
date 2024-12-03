@@ -1,0 +1,95 @@
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing Los Angeles Kings at Nashville Predators, ID: 97bf6827a81ab196745333129bce7671
+Processing New Jersey Devils at Edmonton Oilers, ID: 689b7807c93d792c0135dd4fa43e8d48
+Processing Boston Bruins at Toronto Maple Leafs, ID: 9ad82f60776bebc088bdf444444c1827
+Processing Ottawa Senators at Buffalo Sabres, ID: d8bd0da1851ffcaf37cdf000f05c8c9c
+Processing Calgary Flames at Montréal Canadiens, ID: 5582e3406d4f3faf0b99362c47ee39d8
+Processing Philadelphia Flyers at Carolina Hurricanes, ID: c9a4220dcc8b92a45a4c99e63308f6ee
+Processing Pittsburgh Penguins at New York Islanders, ID: 777e494f93aec8705a6510b78ff300fb
+Processing Los Angeles Kings at Minnesota Wild, ID: 5593d33d8b0375e5284021c63ef7d504
+Processing Tampa Bay Lightning at St Louis Blues, ID: 2b8a526f6728418f4af260a36ff3f716
+Processing Utah Hockey Club at Winnipeg Jets, ID: 17dc54544c043a262702e02127b21e76
+Processing Seattle Kraken at Colorado Avalanche, ID: bf94478e26c7827ea5b390db7d55e8d8
+Processing Vancouver Canucks at Anaheim Ducks, ID: f290619ed1d0e26020e9e5059ff16804
+Processing Columbus Blue Jackets at San Jose Sharks, ID: fbe12432bf0f366d1c35c962a0e6215f
+Used requests: 26
+Remaining requests: 474
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Fetching and storing player data with weights: x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1
+Using ledger: daily_ledger_scaled, model table: modelled_likelihoods
+Found 70 players to model.
+No valid game log data available for player ID: 8483445 before date 2024-11-03 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-11-03 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+Player: Roman Josi, date: 2024-11-04, Over 3.5, Price: 2.25, Kelly Bet: 2.47%
+Player: Jonathan Marchessault, date: 2024-11-04, Over 2.5, Price: 1.71, Kelly Bet: 2.40%
+Player: Quinton Byfield, date: 2024-11-04, Under 1.5, Price: 2.3, Kelly Bet: 0.62%
+Player: Kevin Fiala, date: 2024-11-04, Over 2.5, Price: 1.87, Kelly Bet: 0.67%
+No valid game log data available for player ID: 8482155 before date 2024-11-04 for season 20222023.
+Player: Alex Laferriere, date: 2024-11-04, Under 2.5, Price: 1.62, Kelly Bet: 4.45%
+No valid game log data available for player ID: 8482155 before date 2024-11-04 for season 20222023.
+Player: Trevor Moore, date: 2024-11-04, Over 2.5, Price: 1.95, Kelly Bet: 0.55%
+Player: Warren Foegele, date: 2024-11-04, Over 1.5, Price: 1.53, Kelly Bet: 1.06%
+Brandt Clarke has less than 60 GP.
+Brandt Clarke has less than 60 GP.
+Player: Brady Skjei, date: 2024-11-04, Over 1.5, Price: 1.5, Kelly Bet: 0.99%
+Player: Evan Bouchard, date: 2024-11-04, Under 2.5, Price: 2.15, Kelly Bet: 3.88%
+Player: Zach Hyman, date: 2024-11-04, Over 3.5, Price: 2.25, Kelly Bet: 0.34%
+Player: Ryan Nugent-Hopkins, date: 2024-11-04, Over 1.5, Price: 1.56, Kelly Bet: 0.50%
+Player: Jeff Skinner, date: 2024-11-04, Over 2.5, Price: 1.95, Kelly Bet: 2.79%
+Player: Jesper Bratt, date: 2024-11-04, Over 2.5, Price: 1.98, Kelly Bet: 1.39%
+Player: Nico Hischier, date: 2024-11-04, Over 2.5, Price: 2.0, Kelly Bet: 2.64%
+Player: Timo Meier, date: 2024-11-04, Over 2.5, Price: 1.76, Kelly Bet: 3.92%
+Player: Jack Hughes, date: 2024-11-04, Over 3.5, Price: 2.0, Kelly Bet: 4.56%
+Player: Dougie Hamilton, date: 2024-11-04, Over 2.5, Price: 1.74, Kelly Bet: 2.88%
+Player: Darnell Nurse, date: 2024-11-04, Over 2.5, Price: 2.38, Kelly Bet: 0.44%
+Player: Ondrej Palat, date: 2024-11-04, Under 1.5, Price: 1.85, Kelly Bet: 1.38%
+Player: Mattias Ekholm, date: 2024-11-04, Under 2.5, Price: 1.62, Kelly Bet: 0.68%
+Python interpreter: /Users/alexmann/.pyenv/versions/3.9.16/bin/python3
+Fetching and storing player data with weights: x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1
+Using ledger: daily_ledger_scaled, model table: modelled_likelihoods
+Found 24 players to model.
+No valid game log data available for player ID: 8483445 before date 2024-11-03 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-11-03 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+Brandt Clarke has less than 60 GP.
+Brandt Clarke has less than 60 GP.
+CSV file modelled_likelihoods_2024-11-04.csv created at /Users/alexmann/Documents/Code_Learning/nhl_fromscratch/daily_odds/modelled_likelihoods_2024-11-04.csv.
+WARNING: Sum of suggested bets for date 2024-11-03 is greater than bankroll.
+WARNING: Only using 2024-11-03 suggested bets > 2% of bankroll to reduce bet volume below 100%.
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 68, '242.18', '89.48', '96.90']
+[3, '2024-10-16', 26, '111.52', '96.90', '83.72']
+[4, '2024-10-17', 74, '228.27', '83.72', '103.72']
+[5, '2024-10-18', 27, '125.96', '103.72', '77.92']
+[6, '2024-10-19', 92, '255.06', '77.92', '70.78']
+[7, '2024-10-20', 5, '14.44', '70.78', '83.63']
+[8, '2024-10-21', 7, '24.56', '83.63', '92.56']
+[9, '2024-10-22', 119, '457.40', '92.56', '76.09']
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 46, '75.72', '89.48', '89.68']
+[3, '2024-10-16', 24, '88.09', '89.68', '77.24']
+[4, '2024-10-17', 45, '62.52', '77.24', '80.25']
+[5, '2024-10-18', 27, '79.52', '80.25', '64.91']
+[6, '2024-10-19', 43, '45.81', '64.91', '64.25']
+[7, '2024-10-20', 5, '13.11', '64.25', '75.91']
+[8, '2024-10-21', 7, '22.30', '75.91', '84.02']
+[9, '2024-10-22', 39, '48.96', '84.02', '78.99']
+[10, '2024-10-23', 7, '20.05', '78.99', '76.37']
+[11, '2024-10-24', 36, '68.50', '76.37', '88.73']
+[12, '2024-10-25', 18, '40.38', '88.73', '105.04']
+[13, '2024-10-26', 46, '87.79', '105.04', '113.67']
+[14, '2024-10-27', 30, '98.46', '113.67', '120.33']
+[15, '2024-10-28', 39, '105.53', '120.33', '114.69']
+[16, '2024-10-29', 26, '107.34', '114.69', '135.76']
+[17, '2024-10-30', 43, '127.44', '135.76', '137.08']
+[18, '2024-10-31', 39, '129.14', '137.08', '143.85']
+[19, '2024-11-01', 28, '141.94', '143.85', '127.53']
+[20, '2024-11-02', 41, '101.88', '127.53', '123.89']
+[21, '2024-11-03', 22, '96.50', '123.89', '132.95']

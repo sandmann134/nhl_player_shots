@@ -1,0 +1,309 @@
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing Dallas Stars at Florida Panthers, ID: 7e23d636d5555a0ff45a2a707eaeb3af
+Processing Boston Bruins at Philadelphia Flyers, ID: 58f8025b4a1110c3e34efba838b3fad7
+Processing Chicago Blackhawks at Los Angeles Kings, ID: bb6640ef412536d2683c85fb0b600cc3
+Processing Columbus Blue Jackets at Washington Capitals, ID: 1b90354d2fc93581d693c03af40dac11
+Processing Buffalo Sabres at Detroit Red Wings, ID: d697d7e852fa374512c5b2f7c4774b45
+Processing Montréal Canadiens at Pittsburgh Penguins, ID: bd3289f06af71cba049131fa712db898
+Processing Seattle Kraken at Ottawa Senators, ID: ee86066c5bf4b2f21befde294a337e45
+Processing Toronto Maple Leafs at St Louis Blues, ID: 36751dfc3b620bc0c0bed669ad4b4c60
+Processing Colorado Avalanche at Nashville Predators, ID: 31ec2ea2c65b193542d6ec75c6a50b17
+Processing Vancouver Canucks at San Jose Sharks, ID: 7ca7bf8cb7d86f63d5db28ee31492ff9
+Processing Utah Hockey Club at Vegas Golden Knights, ID: 1bbfa7677cb3a9eabdacbdb9ff93c0c2
+Player: Mikhail Sergachev
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.5, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.51, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.5, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.51, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.45, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.5, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Clayton Keller
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.64, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: FanDuel, Over/Under: Under, Price: 2.2, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.65, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 2.2, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.65, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 2.15, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Dylan Guenther
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.93, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.83, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.91, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.83, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.91, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.83, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Jack Eichel
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.85, Points: 3.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.91, Points: 3.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.87, Points: 3.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.87, Points: 3.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.83, Points: 3.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.87, Points: 3.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Shea Theodore
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.26, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.61, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.24, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.62, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.25, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.61, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Pavel Dorofeyev
+  Bookmaker: FanDuel, Over/Under: Over, Price: 1.78, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.98, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.8, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.95, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.8, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.91, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Tomas Hertl
+  Bookmaker: FanDuel, Over/Under: Over, Price: 2.5, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: FanDuel, Over/Under: Under, Price: 1.51, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.5, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.51, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.45, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.5, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Alex Pietrangelo
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.4, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.56, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.35, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.54, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Barrett Hayton
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.24, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.62, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.25, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.61, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Logan Cooley
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.65, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 2.2, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.65, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 2.15, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Mark Stone
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.2, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.65, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.15, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.65, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Nick Schmaltz
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.4, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.56, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.4, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.53, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: Noah Hanifin
+  Bookmaker: DraftKings, Over/Under: Over, Price: 1.62, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 2.24, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 1.61, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 2.2, Points: 1.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Player: William Karlsson
+  Bookmaker: DraftKings, Over/Under: Over, Price: 2.3, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: DraftKings, Over/Under: Under, Price: 1.6, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Over, Price: 2.25, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+  Bookmaker: BetMGM, Over/Under: Under, Price: 1.57, Points: 2.5, Home Team: Vegas Golden Knights, Away Team: Utah Hockey Club
+Used requests: 17
+Remaining requests: 483
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Fetching and storing player data with weights: x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1
+Using ledger: daily_ledger_scaled, model table: modelled_likelihoods
+Found 328 players to model.
+No valid game log data available for player ID: 8482702 before date 2024-11-01 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-11-01 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-11-01 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-11-01 for season 20222023.
+Adam Fantilli has less than 60 GP.
+Player: Jamie Benn, date: 2024-11-02, Over 1.5, Price: 1.76, Kelly Bet: 1.23%
+Player: Mason Marchment, date: 2024-11-02, Under 1.5, Price: 2.33, Kelly Bet: 0.22%
+No valid game log data available for player ID: 8482702 before date 2024-11-02 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-11-02 for season 20222023.
+Logan Stankoven has less than 60 GP.
+Player: Wyatt Johnston, date: 2024-11-02, Under 2.5, Price: 1.95, Kelly Bet: 1.59%
+Player: Roope Hintz, date: 2024-11-02, Over 1.5, Price: 1.51, Kelly Bet: 0.71%
+Player: Matthew Tkachuk, date: 2024-11-02, Over 3.5, Price: 2.36, Kelly Bet: 2.40%
+Player: Evan Rodrigues, date: 2024-11-02, Over 1.5, Price: 1.62, Kelly Bet: 4.30%
+Player: Gustav Forsling, date: 2024-11-02, Over 1.5, Price: 1.64, Kelly Bet: 0.37%
+Player: Matt Duchene, date: 2024-11-02, Over 1.5, Price: 1.74, Kelly Bet: 3.37%
+Player: Miro Heiskanen, date: 2024-11-02, Over 2.5, Price: 2.42, Kelly Bet: 0.02%
+Player: Jason Robertson, date: 2024-11-02, Over 2.5, Price: 1.88, Kelly Bet: 2.11%
+Player: Sam Reinhart, date: 2024-11-02, Under 2.5, Price: 2.2, Kelly Bet: 0.42%
+Player: Brad Marchand, date: 2024-11-02, Over 2.5, Price: 2.32, Kelly Bet: 1.61%
+Player: David Pastrnak, date: 2024-11-02, Over 3.5, Price: 1.77, Kelly Bet: 6.61%
+Player: Elias Lindholm, date: 2024-11-02, Over 1.5, Price: 1.65, Kelly Bet: 1.97%
+Player: Joel Farabee, date: 2024-11-02, Over 1.5, Price: 1.75, Kelly Bet: 0.84%
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20222023.
+Matvei Michkov has less than 60 GP.
+Player: Morgan Frost, date: 2024-11-02, Over 1.5, Price: 1.74, Kelly Bet: 0.67%
+Player: Pavel Zacha, date: 2024-11-02, Over 1.5, Price: 1.83, Kelly Bet: 0.72%
+No valid game log data available for player ID: 8476461 before date 2024-11-02 for season 20222023.
+Player: Sean Couturier, date: 2024-11-02, Over 2.5, Price: 2.39, Kelly Bet: 0.77%
+No valid game log data available for player ID: 8476461 before date 2024-11-02 for season 20222023.
+Player: Travis Sanheim, date: 2024-11-02, Under 1.5, Price: 2.3, Kelly Bet: 0.97%
+No valid game log data available for player ID: 8482511 before date 2024-11-02 for season 20222023.
+Mason Lohrei has less than 60 GP.
+No valid game log data available for player ID: 8482511 before date 2024-11-02 for season 20222023.
+Mason Lohrei has less than 60 GP.
+Player: Tyson Foerster, date: 2024-11-02, Over 1.5, Price: 1.81, Kelly Bet: 3.13%
+Player: Hampus Lindholm, date: 2024-11-02, Under 1.5, Price: 2.0, Kelly Bet: 0.07%
+Player: Charlie Coyle, date: 2024-11-02, Under 1.5, Price: 1.98, Kelly Bet: 0.21%
+Player: Adrian Kempe, date: 2024-11-02, Under 3.5, Price: 1.67, Kelly Bet: 2.78%
+No valid game log data available for player ID: 8482155 before date 2024-11-02 for season 20222023.
+Player: Alex Laferriere, date: 2024-11-02, Under 2.5, Price: 1.71, Kelly Bet: 5.99%
+No valid game log data available for player ID: 8482155 before date 2024-11-02 for season 20222023.
+Brandt Clarke has less than 60 GP.
+Brandt Clarke has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-11-02 for season 20222023.
+Player: Connor Bedard, date: 2024-11-02, Over 2.5, Price: 1.76, Kelly Bet: 1.85%
+No valid game log data available for player ID: 8484144 before date 2024-11-02 for season 20222023.
+Player: Quinton Byfield, date: 2024-11-02, Under 2.5, Price: 1.61, Kelly Bet: 6.61%
+Player: Seth Jones, date: 2024-11-02, Over 2.5, Price: 2.26, Kelly Bet: 1.52%
+Player: Taylor Hall, date: 2024-11-02, Over 1.5, Price: 1.62, Kelly Bet: 4.25%
+Player: Warren Foegele, date: 2024-11-02, Under 2.5, Price: 1.71, Kelly Bet: 0.07%
+No valid game log data available for player ID: 8484166 before date 2024-11-02 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-11-02 for season 20222023.
+Adam Fantilli has less than 60 GP.
+Player: Sean Monahan, date: 2024-11-02, Under 2.5, Price: 1.64, Kelly Bet: 0.76%
+Jakub Vrana has less than 60 GP.
+Jakub Vrana has less than 60 GP.
+Player: Alex Ovechkin, date: 2024-11-02, Under 3.5, Price: 1.85, Kelly Bet: 0.05%
+Player: Yegor Chinakhov, date: 2024-11-02, Under 2.5, Price: 1.59, Kelly Bet: 1.95%
+Player: Tom Wilson, date: 2024-11-02, Under 2.5, Price: 1.95, Kelly Bet: 3.85%
+Player: John Carlson, date: 2024-11-02, Under 2.5, Price: 1.99, Kelly Bet: 5.27%
+Player: Dylan Strome, date: 2024-11-02, Under 2.5, Price: 1.67, Kelly Bet: 4.60%
+Player: Pierre-Luc Dubois, date: 2024-11-02, Under 2.5, Price: 1.61, Kelly Bet: 4.68%
+Player: Aliaksei Protas, date: 2024-11-02, Under 1.5, Price: 2.21, Kelly Bet: 4.92%
+Player: Connor McMichael, date: 2024-11-02, Under 2.5, Price: 1.69, Kelly Bet: 8.63%
+Player: Cole Sillinger, date: 2024-11-02, Under 1.5, Price: 2.5, Kelly Bet: 0.48%
+Player: Dylan Larkin, date: 2024-11-02, Under 3.5, Price: 1.68, Kelly Bet: 1.18%
+Player: Lucas Raymond, date: 2024-11-02, Under 2.5, Price: 1.53, Kelly Bet: 2.91%
+Player: Alex DeBrincat, date: 2024-11-02, Under 2.5, Price: 2.27, Kelly Bet: 0.60%
+Player: Moritz Seider, date: 2024-11-02, Under 1.5, Price: 2.2, Kelly Bet: 1.94%
+Player: JJ Peterka, date: 2024-11-02, Under 2.5, Price: 2.3, Kelly Bet: 4.40%
+Player: Patrick Kane, date: 2024-11-02, Over 2.5, Price: 2.0, Kelly Bet: 1.45%
+Player: Alex Tuch, date: 2024-11-02, Under 2.5, Price: 2.05, Kelly Bet: 0.93%
+Player: Cole Caufield, date: 2024-11-02, Over 3.5, Price: 2.1, Kelly Bet: 0.07%
+Player: Nick Suzuki, date: 2024-11-02, Under 2.5, Price: 1.62, Kelly Bet: 0.17%
+Player: Sidney Crosby, date: 2024-11-02, Under 3.5, Price: 1.76, Kelly Bet: 2.09%
+Player: Erik Karlsson, date: 2024-11-02, Under 2.5, Price: 2.1, Kelly Bet: 2.78%
+Player: Evgeni Malkin, date: 2024-11-02, Under 2.5, Price: 1.89, Kelly Bet: 0.78%
+Player: Mike Matheson, date: 2024-11-02, Over 1.5, Price: 1.62, Kelly Bet: 1.66%
+Player: Juraj Slafkovsky, date: 2024-11-02, Under 1.5, Price: 2.45, Kelly Bet: 2.83%
+Player: Drew O'Connor, date: 2024-11-02, Under 1.5, Price: 2.51, Kelly Bet: 2.30%
+Player: Rickard Rakell, date: 2024-11-02, Under 2.5, Price: 2.2, Kelly Bet: 2.47%
+Player: Joel Armia, date: 2024-11-02, Over 1.5, Price: 1.74, Kelly Bet: 0.07%
+Player: Kris Letang, date: 2024-11-02, Under 2.5, Price: 1.71, Kelly Bet: 1.42%
+Player: Lars Eller, date: 2024-11-02, Under 1.5, Price: 2.45, Kelly Bet: 1.58%
+Player: Michael Bunting, date: 2024-11-02, Under 2.5, Price: 1.57, Kelly Bet: 0.48%
+Player: Drake Batherson, date: 2024-11-02, Under 2.5, Price: 1.85, Kelly Bet: 0.98%
+Player: Josh Norris, date: 2024-11-02, Under 2.5, Price: 1.64, Kelly Bet: 0.70%
+Player: Jared McCann, date: 2024-11-02, Under 2.5, Price: 2.3, Kelly Bet: 3.56%
+Player: Matty Beniers, date: 2024-11-02, Under 1.5, Price: 2.26, Kelly Bet: 0.85%
+Player: Adam Larsson, date: 2024-11-02, Under 1.5, Price: 2.14, Kelly Bet: 3.18%
+Player: Oliver Bjorkstrand, date: 2024-11-02, Over 1.5, Price: 1.5, Kelly Bet: 1.13%
+Player: Jordan Eberle, date: 2024-11-02, Under 2.5, Price: 1.53, Kelly Bet: 0.06%
+Player: Jake Sanderson, date: 2024-11-02, Under 1.5, Price: 2.4, Kelly Bet: 0.15%
+Player: Mitch Marner, date: 2024-11-02, Under 2.5, Price: 1.87, Kelly Bet: 2.16%
+Player: Jake Neighbours, date: 2024-11-02, Under 1.5, Price: 2.54, Kelly Bet: 2.56%
+Player: Auston Matthews, date: 2024-11-02, Under 4.5, Price: 2.02, Kelly Bet: 1.59%
+Player: Morgan Rielly, date: 2024-11-02, Under 2.5, Price: 1.69, Kelly Bet: 1.42%
+Player: Brandon Saad, date: 2024-11-02, Under 1.5, Price: 2.33, Kelly Bet: 1.62%
+Player: Matthew Knies, date: 2024-11-02, Under 1.5, Price: 2.52, Kelly Bet: 4.49%
+Player: Max Domi, date: 2024-11-02, Under 1.5, Price: 2.21, Kelly Bet: 1.48%
+Player: Oliver Ekman-Larsson, date: 2024-11-02, Under 1.5, Price: 2.39, Kelly Bet: 2.91%
+Player: Max Pacioretty, date: 2024-11-02, Under 2.5, Price: 1.57, Kelly Bet: 3.26%
+Player: Josh Manson, date: 2024-11-02, Under 1.5, Price: 2.0, Kelly Bet: 1.96%
+Player: Casey Mittelstadt, date: 2024-11-02, Under 2.5, Price: 1.62, Kelly Bet: 7.28%
+Player: Cale Makar, date: 2024-11-02, Under 3.5, Price: 1.65, Kelly Bet: 2.88%
+Player: Steven Stamkos, date: 2024-11-02, Under 3.5, Price: 1.71, Kelly Bet: 0.39%
+Player: Nathan MacKinnon, date: 2024-11-02, Over 4.5, Price: 2.26, Kelly Bet: 2.95%
+Player: Luke Evangelista, date: 2024-11-02, Over 1.5, Price: 1.62, Kelly Bet: 1.03%
+Player: J.T. Miller, date: 2024-11-02, Under 2.5, Price: 1.98, Kelly Bet: 2.68%
+Player: Brock Boeser, date: 2024-11-02, Under 2.5, Price: 1.94, Kelly Bet: 1.77%
+Player: Fabian Zetterlund, date: 2024-11-02, Under 2.5, Price: 1.74, Kelly Bet: 1.48%
+Player: William Eklund, date: 2024-11-02, Under 1.5, Price: 2.35, Kelly Bet: 2.38%
+Player: Tyler Toffoli, date: 2024-11-02, Over 2.5, Price: 1.74, Kelly Bet: 1.78%
+Player: Conor Garland, date: 2024-11-02, Under 2.5, Price: 2.2, Kelly Bet: 5.66%
+Player: Jake Walman, date: 2024-11-02, Under 2.5, Price: 1.64, Kelly Bet: 3.01%
+Player: Jake DeBrusk, date: 2024-11-02, Over 1.5, Price: 1.54, Kelly Bet: 1.53%
+Player: Mikael Granlund, date: 2024-11-02, Under 2.5, Price: 1.69, Kelly Bet: 3.38%
+Player: Quinn Hughes, date: 2024-11-02, Under 2.5, Price: 2.3, Kelly Bet: 5.17%
+Player: Mikhail Sergachev, date: 2024-11-02, Under 2.5, Price: 1.51, Kelly Bet: 4.07%
+Player: Clayton Keller, date: 2024-11-02, Under 2.5, Price: 2.2, Kelly Bet: 0.01%
+Player: Dylan Guenther, date: 2024-11-02, Under 2.5, Price: 1.83, Kelly Bet: 1.07%
+Player: Shea Theodore, date: 2024-11-02, Under 2.5, Price: 1.62, Kelly Bet: 0.20%
+Player: Pavel Dorofeyev, date: 2024-11-02, Under 2.5, Price: 1.98, Kelly Bet: 3.43%
+Player: Barrett Hayton, date: 2024-11-02, Under 2.5, Price: 1.62, Kelly Bet: 0.37%
+No valid game log data available for player ID: 8483431 before date 2024-11-02 for season 20222023.
+No valid game log data available for player ID: 8483431 before date 2024-11-02 for season 20222023.
+Player: Mark Stone, date: 2024-11-02, Under 2.5, Price: 1.65, Kelly Bet: 0.62%
+Player: Nick Schmaltz, date: 2024-11-02, Under 2.5, Price: 1.56, Kelly Bet: 1.04%
+Python interpreter: /Users/alexmann/.pyenv/versions/3.9.16/bin/python3
+Fetching and storing player data with weights: x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1
+Using ledger: daily_ledger_scaled, model table: modelled_likelihoods
+Found 40 players to model.
+No valid game log data available for player ID: 8482702 before date 2024-11-01 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-11-01 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-11-01 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-11-01 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-11-02 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-11-02 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-11-02 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8482511 before date 2024-11-02 for season 20222023.
+Mason Lohrei has less than 60 GP.
+No valid game log data available for player ID: 8482511 before date 2024-11-02 for season 20222023.
+Mason Lohrei has less than 60 GP.
+Brandt Clarke has less than 60 GP.
+Brandt Clarke has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-11-02 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-11-02 for season 20222023.
+Adam Fantilli has less than 60 GP.
+Jakub Vrana has less than 60 GP.
+Jakub Vrana has less than 60 GP.
+CSV file modelled_likelihoods_2024-11-02.csv created at /Users/alexmann/Documents/Code_Learning/nhl_fromscratch/daily_odds/modelled_likelihoods_2024-11-02.csv.
+WARNING: Sum of suggested bets for date 2024-11-01 is greater than bankroll.
+WARNING: Only using 2024-11-01 suggested bets > 2% of bankroll to reduce bet volume below 100%.
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 68, '242.18', '89.48', '96.90']
+[3, '2024-10-16', 26, '111.52', '96.90', '83.72']
+[4, '2024-10-17', 74, '228.27', '83.72', '103.72']
+[5, '2024-10-18', 27, '125.96', '103.72', '77.92']
+[6, '2024-10-19', 92, '255.06', '77.92', '70.78']
+[7, '2024-10-20', 5, '14.44', '70.78', '83.63']
+[8, '2024-10-21', 7, '24.56', '83.63', '92.56']
+[9, '2024-10-22', 119, '457.40', '92.56', '76.09']
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 46, '75.72', '89.48', '89.68']
+[3, '2024-10-16', 24, '88.09', '89.68', '77.24']
+[4, '2024-10-17', 45, '62.52', '77.24', '80.25']
+[5, '2024-10-18', 27, '79.52', '80.25', '64.91']
+[6, '2024-10-19', 43, '45.81', '64.91', '64.25']
+[7, '2024-10-20', 5, '13.11', '64.25', '75.91']
+[8, '2024-10-21', 7, '22.30', '75.91', '84.02']
+[9, '2024-10-22', 39, '48.96', '84.02', '78.99']
+[10, '2024-10-23', 7, '20.05', '78.99', '76.37']
+[11, '2024-10-24', 36, '68.50', '76.37', '88.73']
+[12, '2024-10-25', 18, '40.38', '88.73', '105.04']
+[13, '2024-10-26', 46, '87.79', '105.04', '113.67']
+[14, '2024-10-27', 30, '98.46', '113.67', '120.33']
+[15, '2024-10-28', 39, '105.53', '120.33', '114.69']
+[16, '2024-10-29', 26, '107.34', '114.69', '135.76']
+[17, '2024-10-30', 43, '127.44', '135.76', '137.08']
+[18, '2024-10-31', 39, '129.14', '137.08', '143.85']
+[19, '2024-11-01', 28, '141.94', '143.85', '127.53']

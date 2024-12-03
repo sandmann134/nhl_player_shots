@@ -1,0 +1,210 @@
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Processing Utah Hockey Club at Los Angeles Kings, ID: a5e6c0cfeeaf03a3069cf366c9a411ff
+Processing Anaheim Ducks at New York Rangers, ID: cce4380605c5b947c9236adbadffe342
+Processing Toronto Maple Leafs at Boston Bruins, ID: fcc6c5b2381ba7e8616c381794758969
+Processing Winnipeg Jets at Calgary Flames, ID: fac682e965b2100f88cd67f030b7afe9
+Processing St Louis Blues at Montréal Canadiens, ID: 8dfd3a3e645d8465898f4ea45fdfa10b
+Processing Washington Capitals at Tampa Bay Lightning, ID: d34eb2ad0f2436cfa46f29a88923820b
+Processing Florida Panthers at New York Islanders, ID: a7a4e33b395caef1e8c03c3504a6b92c
+Processing Chicago Blackhawks at Dallas Stars, ID: 1b0644293fe2f52f39ca6871b662bede
+Processing Columbus Blue Jackets at Nashville Predators, ID: c789c5f0559852ac4d27d29e8b47707c
+Processing Carolina Hurricanes at Seattle Kraken, ID: 3c6850e4b6315ed6d9594482a2ecd914
+Processing Pittsburgh Penguins at Vancouver Canucks, ID: c4cf4528f37a9bb8daa6c9e8d6c4518b
+Processing San Jose Sharks at Vegas Golden Knights, ID: 3566a7a4ed76b8aa5e9e5faa82ad1adf
+Processing Edmonton Oilers at Detroit Red Wings, ID: 3d2b1ec3579a36d212ba7231574cb121
+Processing Anaheim Ducks at New Jersey Devils, ID: 8b3e6f36ff1a4d535832b3367c21626b
+Processing Montréal Canadiens at Philadelphia Flyers, ID: 16ba31769fffed34f675f45dd3646671
+Processing Ottawa Senators at Colorado Avalanche, ID: 00573acaeae6c127bdece3754fbea27b
+Used requests: 122
+Remaining requests: 378
+/Users/alexmann/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-10-25 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-25 for season 20222023.
+Player: Mika Zibanejad, date: 2024-10-26, Under 2.5, Price: 2.1, Kelly Bet: 0.40%
+Player: Alexis Lafrenière, date: 2024-10-26, Under 2.5, Price: 2.26, Kelly Bet: 4.76%
+Player: Chris Kreider, date: 2024-10-26, Under 2.5, Price: 2.35, Kelly Bet: 0.12%
+Player: Vincent Trocheck, date: 2024-10-26, Under 2.5, Price: 2.35, Kelly Bet: 3.21%
+Player: Artemi Panarin, date: 2024-10-26, Under 3.5, Price: 2.16, Kelly Bet: 3.46%
+No valid game log data available for player ID: 8484153 before date 2024-10-26 for season 20222023.
+No valid game log data available for player ID: 8484153 before date 2024-10-26 for season 20222023.
+No valid game log data available for player ID: 8483445 before date 2024-10-26 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-26 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+Player: Mason McTavish, date: 2024-10-26, Over 1.5, Price: 1.71, Kelly Bet: 0.07%
+Player: Filip Chytil, date: 2024-10-26, Under 2.5, Price: 1.69, Kelly Bet: 0.71%
+Player: Jacob Trouba, date: 2024-10-26, Over 1.5, Price: 1.69, Kelly Bet: 0.32%
+Player: Frank Vatrano, date: 2024-10-26, Over 2.5, Price: 1.83, Kelly Bet: 4.06%
+Player: Trevor Zegras, date: 2024-10-26, Over 1.5, Price: 1.5, Kelly Bet: 0.24%
+Player: Adam Fox, date: 2024-10-26, Under 1.5, Price: 2.45, Kelly Bet: 1.88%
+Player: Charlie McAvoy, date: 2024-10-26, Under 1.5, Price: 2.3, Kelly Bet: 1.68%
+Player: Brad Marchand, date: 2024-10-26, Over 2.5, Price: 2.32, Kelly Bet: 1.05%
+Player: David Pastrnak, date: 2024-10-26, Over 3.5, Price: 1.64, Kelly Bet: 4.95%
+Player: Morgan Rielly, date: 2024-10-26, Over 1.5, Price: 1.53, Kelly Bet: 1.10%
+Player: John Tavares, date: 2024-10-26, Over 3.5, Price: 2.35, Kelly Bet: 1.71%
+Player: William Nylander, date: 2024-10-26, Over 3.5, Price: 2.0, Kelly Bet: 0.81%
+Player: Matthew Knies, date: 2024-10-26, Under 1.5, Price: 2.24, Kelly Bet: 4.61%
+Player: Nicholas Robertson, date: 2024-10-26, Under 1.5, Price: 2.13, Kelly Bet: 0.58%
+Player: Oliver Ekman-Larsson, date: 2024-10-26, Under 1.5, Price: 2.46, Kelly Bet: 4.39%
+Player: Charlie Coyle, date: 2024-10-26, Over 1.5, Price: 2.06, Kelly Bet: 1.31%
+Max Pacioretty has less than 60 GP.
+Max Pacioretty has less than 60 GP.
+Player: Jonathan Huberdeau, date: 2024-10-26, Under 1.5, Price: 2.25, Kelly Bet: 1.86%
+Player: Blake Coleman, date: 2024-10-26, Under 2.5, Price: 2.15, Kelly Bet: 3.67%
+Player: Nazem Kadri, date: 2024-10-26, Under 3.5, Price: 1.95, Kelly Bet: 2.24%
+Player: Josh Morrissey, date: 2024-10-26, Under 2.5, Price: 1.74, Kelly Bet: 0.58%
+Player: MacKenzie Weegar, date: 2024-10-26, Under 2.5, Price: 1.96, Kelly Bet: 2.53%
+Player: Neal Pionk, date: 2024-10-26, Under 1.5, Price: 2.2, Kelly Bet: 0.21%
+No valid game log data available for player ID: 8482074 before date 2024-10-26 for season 20222023.
+Player: Connor Zary, date: 2024-10-26, Under 1.5, Price: 2.4, Kelly Bet: 6.09%
+No valid game log data available for player ID: 8482074 before date 2024-10-26 for season 20222023.
+No valid game log data available for player ID: 8481028 before date 2024-10-26 for season 20222023.
+Player: Martin Pospisil, date: 2024-10-26, Under 1.5, Price: 2.22, Kelly Bet: 0.03%
+No valid game log data available for player ID: 8481028 before date 2024-10-26 for season 20222023.
+Player: Andrei Kuzmenko, date: 2024-10-26, Under 2.5, Price: 1.52, Kelly Bet: 7.35%
+Player: Kirby Dach, date: 2024-10-26, Over 1.5, Price: 1.75, Kelly Bet: 0.70%
+Player: Alex Newhook, date: 2024-10-26, Under 1.5, Price: 1.77, Kelly Bet: 0.07%
+Player: Nick Suzuki, date: 2024-10-26, Under 2.5, Price: 1.74, Kelly Bet: 2.84%
+Player: Jake Neighbours, date: 2024-10-26, Under 1.5, Price: 2.3, Kelly Bet: 0.65%
+Player: Jordan Kyrou, date: 2024-10-26, Under 3.5, Price: 1.71, Kelly Bet: 2.60%
+Player: Pavel Buchnevich, date: 2024-10-26, Under 2.5, Price: 1.83, Kelly Bet: 0.46%
+Player: Brayden Schenn, date: 2024-10-26, Under 2.5, Price: 1.8, Kelly Bet: 5.34%
+Player: Brendan Gallagher, date: 2024-10-26, Under 2.5, Price: 1.78, Kelly Bet: 4.95%
+Player: Brandon Saad, date: 2024-10-26, Under 1.5, Price: 2.45, Kelly Bet: 2.33%
+Player: John Carlson, date: 2024-10-26, Under 2.5, Price: 1.77, Kelly Bet: 2.11%
+Player: Alex Ovechkin, date: 2024-10-26, Over 3.5, Price: 2.4, Kelly Bet: 1.86%
+Player: Victor Hedman, date: 2024-10-26, Under 2.5, Price: 1.91, Kelly Bet: 3.70%
+Player: Jake Guentzel, date: 2024-10-26, Over 2.5, Price: 1.65, Kelly Bet: 3.64%
+Player: Brandon Hagel, date: 2024-10-26, Under 2.5, Price: 1.65, Kelly Bet: 0.11%
+Player: Jakob Chychrun, date: 2024-10-26, Over 2.5, Price: 2.3, Kelly Bet: 1.11%
+Player: Matthew Tkachuk, date: 2024-10-26, Over 2.5, Price: 1.5, Kelly Bet: 2.10%
+Player: Sam Bennett, date: 2024-10-26, Under 2.5, Price: 2.16, Kelly Bet: 1.62%
+Player: Anton Lundell, date: 2024-10-26, Under 2.5, Price: 1.69, Kelly Bet: 2.41%
+Player: Mathew Barzal, date: 2024-10-26, Over 2.5, Price: 1.85, Kelly Bet: 0.43%
+Player: Brock Nelson, date: 2024-10-26, Over 2.5, Price: 1.92, Kelly Bet: 3.36%
+Player: Gustav Forsling, date: 2024-10-26, Under 2.5, Price: 1.56, Kelly Bet: 0.76%
+Player: Evan Rodrigues, date: 2024-10-26, Over 2.5, Price: 2.52, Kelly Bet: 0.81%
+Player: Miro Heiskanen, date: 2024-10-26, Under 2.5, Price: 1.77, Kelly Bet: 1.19%
+Player: Roope Hintz, date: 2024-10-26, Under 2.5, Price: 1.71, Kelly Bet: 0.59%
+Player: Wyatt Johnston, date: 2024-10-26, Under 2.5, Price: 2.35, Kelly Bet: 5.04%
+Player: Seth Jones, date: 2024-10-26, Over 2.5, Price: 2.14, Kelly Bet: 0.45%
+No valid game log data available for player ID: 8484144 before date 2024-10-26 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-26 for season 20222023.
+Player: Taylor Hall, date: 2024-10-26, Over 1.5, Price: 1.56, Kelly Bet: 2.83%
+Player: Teuvo Teravainen, date: 2024-10-26, Under 1.5, Price: 2.46, Kelly Bet: 0.88%
+No valid game log data available for player ID: 8482702 before date 2024-10-26 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-26 for season 20222023.
+Logan Stankoven has less than 60 GP.
+Player: Tyler Seguin, date: 2024-10-26, Under 2.5, Price: 1.74, Kelly Bet: 1.96%
+Player: Mason Marchment, date: 2024-10-26, Under 2.5, Price: 1.57, Kelly Bet: 4.43%
+Player: Thomas Harley, date: 2024-10-26, Under 1.5, Price: 2.25, Kelly Bet: 0.20%
+Player: Filip Forsberg, date: 2024-10-26, Under 3.5, Price: 2.5, Kelly Bet: 0.04%
+Player: Roman Josi, date: 2024-10-26, Under 3.5, Price: 1.91, Kelly Bet: 1.54%
+Player: Steven Stamkos, date: 2024-10-26, Under 3.5, Price: 1.83, Kelly Bet: 2.08%
+Player: Yegor Chinakhov, date: 2024-10-26, Under 2.5, Price: 1.87, Kelly Bet: 5.88%
+No valid game log data available for player ID: 8484166 before date 2024-10-26 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-26 for season 20222023.
+Adam Fantilli has less than 60 GP.
+Player: Kirill Marchenko, date: 2024-10-26, Under 2.5, Price: 2.08, Kelly Bet: 3.63%
+Player: Sean Monahan, date: 2024-10-26, Under 2.5, Price: 1.75, Kelly Bet: 3.80%
+Player: Zach Werenski, date: 2024-10-26, Under 3.5, Price: 1.62, Kelly Bet: 2.80%
+Player: Brady Skjei, date: 2024-10-26, Under 2.5, Price: 1.87, Kelly Bet: 1.93%
+Player: Cole Sillinger, date: 2024-10-26, Under 2.5, Price: 1.77, Kelly Bet: 6.36%
+Player: Matty Beniers, date: 2024-10-26, Over 1.5, Price: 1.93, Kelly Bet: 0.92%
+Player: Oliver Bjorkstrand, date: 2024-10-26, Over 1.5, Price: 1.65, Kelly Bet: 4.26%
+Player: Sebastian Aho, date: 2024-10-26, Under 2.5, Price: 2.25, Kelly Bet: 0.75%
+Player: Brent Burns, date: 2024-10-26, Over 2.5, Price: 2.45, Kelly Bet: 0.52%
+Player: Seth Jarvis, date: 2024-10-26, Under 2.5, Price: 1.69, Kelly Bet: 1.68%
+Player: Andrei Svechnikov, date: 2024-10-26, Under 2.5, Price: 2.3, Kelly Bet: 2.49%
+Player: Jordan Martinook, date: 2024-10-26, Under 1.5, Price: 2.22, Kelly Bet: 0.56%
+Player: Jaccob Slavin, date: 2024-10-26, Under 1.5, Price: 2.21, Kelly Bet: 0.37%
+Player: Jaden Schwartz, date: 2024-10-26, Over 1.5, Price: 1.98, Kelly Bet: 2.56%
+Player: Shayne Gostisbehere, date: 2024-10-26, Under 1.5, Price: 2.3, Kelly Bet: 0.85%
+Player: J.T. Miller, date: 2024-10-26, Under 2.5, Price: 1.95, Kelly Bet: 2.17%
+Player: Brock Boeser, date: 2024-10-26, Under 2.5, Price: 1.97, Kelly Bet: 2.25%
+Player: Quinn Hughes, date: 2024-10-26, Under 2.5, Price: 2.17, Kelly Bet: 4.80%
+Player: Jake DeBrusk, date: 2024-10-26, Over 1.5, Price: 1.53, Kelly Bet: 1.66%
+Player: Evgeni Malkin, date: 2024-10-26, Over 2.5, Price: 2.35, Kelly Bet: 0.87%
+Player: Rickard Rakell, date: 2024-10-26, Over 2.5, Price: 2.3, Kelly Bet: 0.39%
+Player: Bryan Rust, date: 2024-10-26, Over 2.5, Price: 1.68, Kelly Bet: 0.03%
+Player: Anthony Beauvillier, date: 2024-10-26, Over 1.5, Price: 1.8, Kelly Bet: 1.48%
+Player: Kris Letang, date: 2024-10-26, Over 1.5, Price: 1.64, Kelly Bet: 0.01%
+Player: Michael Bunting, date: 2024-10-26, Over 1.5, Price: 1.74, Kelly Bet: 2.37%
+Player: Kiefer Sherwood, date: 2024-10-26, Under 1.5, Price: 2.2, Kelly Bet: 1.91%
+Player: Conor Garland, date: 2024-10-26, Under 2.5, Price: 2.14, Kelly Bet: 4.98%
+Player: Lars Eller, date: 2024-10-26, Over 1.5, Price: 1.78, Kelly Bet: 0.05%
+Player: Tomas Hertl, date: 2024-10-26, Under 2.5, Price: 1.7, Kelly Bet: 1.29%
+Player: Mark Stone, date: 2024-10-26, Under 2.5, Price: 1.69, Kelly Bet: 3.04%
+Player: Shea Theodore, date: 2024-10-26, Under 2.5, Price: 1.69, Kelly Bet: 1.17%
+Player: Jake Walman, date: 2024-10-26, Under 1.5, Price: 2.5, Kelly Bet: 1.63%
+Player: William Eklund, date: 2024-10-26, Under 1.5, Price: 2.35, Kelly Bet: 3.08%
+Player: Tyler Toffoli, date: 2024-10-26, Over 2.5, Price: 1.85, Kelly Bet: 1.17%
+Player: Mikael Granlund, date: 2024-10-26, Under 2.5, Price: 1.65, Kelly Bet: 4.41%
+Player: Alexander Holtz, date: 2024-10-26, Under 1.5, Price: 2.0, Kelly Bet: 3.41%
+Player: Ivan Barbashev, date: 2024-10-26, Under 1.5, Price: 2.21, Kelly Bet: 4.24%
+Player: Pavel Dorofeyev, date: 2024-10-26, Under 2.5, Price: 1.69, Kelly Bet: 4.25%
+Python interpreter: /Users/alexmann/.pyenv/versions/3.9.16/bin/python3
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20232024.
+No valid game log data available for player ID: 8484387 before date 2024-10-23 for season 20222023.
+Matvei Michkov has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-24 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484144 before date 2024-10-25 for season 20222023.
+No valid game log data available for player ID: 8484144 before date 2024-10-25 for season 20222023.
+No valid game log data available for player ID: 8483445 before date 2024-10-26 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+No valid game log data available for player ID: 8483445 before date 2024-10-26 for season 20222023.
+Cutter Gauthier has less than 60 GP.
+Max Pacioretty has less than 60 GP.
+Max Pacioretty has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-26 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8482702 before date 2024-10-26 for season 20222023.
+Logan Stankoven has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-26 for season 20222023.
+Adam Fantilli has less than 60 GP.
+No valid game log data available for player ID: 8484166 before date 2024-10-26 for season 20222023.
+Adam Fantilli has less than 60 GP.
+CSV file modelled_likelihoods_2024-10-26.csv created at /Users/alexmann/Documents/Code_Learning/nhl_fromscratch/daily_odds/modelled_likelihoods_2024-10-26.csv.
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 68, '242.18', '89.48', '96.90']
+[3, '2024-10-16', 26, '111.52', '96.90', '83.72']
+[4, '2024-10-17', 74, '228.27', '83.72', '103.72']
+[5, '2024-10-18', 27, '125.96', '103.72', '77.92']
+[6, '2024-10-19', 92, '255.06', '77.92', '70.78']
+[7, '2024-10-20', 5, '14.44', '70.78', '83.63']
+[8, '2024-10-21', 7, '24.56', '83.63', '92.56']
+[9, '2024-10-22', 119, '457.40', '92.56', '76.09']
+Updated Ledger:
+[1, '2024-10-11', 27, '91.06', '100.00', '89.48']
+[2, '2024-10-15', 46, '75.72', '89.48', '89.68']
+[3, '2024-10-16', 24, '88.09', '89.68', '77.24']
+[4, '2024-10-17', 45, '62.52', '77.24', '80.25']
+[5, '2024-10-18', 27, '79.52', '80.25', '64.91']
+[6, '2024-10-19', 43, '45.81', '64.91', '64.25']
+[7, '2024-10-20', 5, '13.11', '64.25', '75.91']
+[8, '2024-10-21', 7, '22.30', '75.91', '84.02']
+[9, '2024-10-22', 39, '48.96', '84.02', '78.99']
+[10, '2024-10-23', 7, '20.05', '78.99', '76.37']
+[11, '2024-10-24', 36, '68.50', '76.37', '88.73']
+[12, '2024-10-25', 18, '40.38', '88.73', '105.04']
