@@ -210,11 +210,11 @@ def calculate_likelihoods(shots, weighted_shots, over_under, shots_threshold, op
 def kelly_criterion(probability, odds):
     return probability - (1 - probability) / (odds - 1)
 
-def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, opposition_adjust = 0):
+def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, opposition_adjust = 0, sig_diff_adjust = 0):
     print(f"Fetching and storing player data with weights: x_10 = {x_10}, x_2024 = {x_2024}, x_2023 = {x_2023}, x_2022 = {x_2022}")
 
     if x_2024 == 3 and x_2023 == 2 and x_2022 == 1:
-        if opposition_adjust != 0:
+        if opposition_adjust != 0 and sig_diff_adjust == 0:
             if x_10 == 5:
                 ledger = 'daily_ledger_scaled_wOppositionFactor'
                 model_table = 'modelled_likelihoods_wOppositionFactor'
@@ -233,12 +233,15 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
             elif opposition_adjust == 0.05:
                 ledger = 'daily_ledger_scaled_weight' + str(x_10) + '_twentiethOppositionFactor'
                 model_table = 'modelled_likelihoods_weight' + str(x_10) + '_twentiethOppositionFactor'
-        elif x_10 == 5:
+        elif x_10 == 5 and sig_diff_adjust == 0:
             ledger = 'daily_ledger_scaled'
             model_table = 'modelled_likelihoods'
-        else:
+        elif sig_diff_adjust == 0:
             ledger = 'daily_ledger_scaled_weight' + str(x_10)
             model_table = 'modelled_likelihoods_weight' + str(x_10)
+        elif opposition_adjust== 0.1 and sig_diff_adjust == 1:
+            ledger = 'daily_ledger_scaled_weight' + str(x_10) + 'tenthOppositionFactor' + '_sigDiff2'   #sigDiff for +2
+            model_table = 'modelled_likelihoods_weight' + str(x_10) + 'tenthOppositionFactor' + '_sigDiff2'  #sigDiff for +2
     elif x_2024 == 1 and x_2023 == 1:
         if x_10 == 1 and x_2022 == 0:
             ledger = 'daily_ledger_scaled_2324flat'
@@ -272,7 +275,7 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
     FROM player_shots_odds pso
     LEFT JOIN {model_table} ml
     ON pso.player_name = ml.player_name AND pso.over_under = ml.over_under AND pso.date = ml.date AND pso.points = ml.points
-    WHERE ml.player_name IS NULL
+    WHERE ml.player_name IS NULL 
     AND pso.date > (SELECT COALESCE(MAX(date), '1900-01-01') FROM {ledger})
     """)
     players = cursor.fetchall()
@@ -305,6 +308,36 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
                 print(f"{player_name} has less than 60 GP.")
                 continue
 
+            # if sig_diff_adjust == 1, compare to see if this season is significantly different past
+            adjusted = 0    # boolean for if coefficients need resetting
+            x_10_inc = 2    # increment for x_10 if sig_diff_adjust == 1
+            x_2024_inc = 1  # increment for x_2024 if sig_diff_adjust == 1
+            if sig_diff_adjust == 1 and len(current_season_shots) > 9:
+                pre_thisseason = last_season_shots + twothree_season_shots
+
+                # Calculate the mean of the two samples
+                mean_current = sum(current_season_shots) / len(current_season_shots)
+                mean_pre_thisseason = sum(pre_thisseason) / len(pre_thisseason)
+
+                # Calculate the lambda (rate) for the Poisson distributions
+                lambda_current = mean_current
+                lambda_pre_thisseason = mean_pre_thisseason
+                combined_rate = (sum(current_season_shots) + sum(pre_thisseason)) / (len(current_season_shots) + len(pre_thisseason))
+
+                # Perform a two-sample Poisson test
+                # Calculate the p-value
+                #p_value = poisson.cdf(sum(current_season_shots), lambda_pre_thisseason * len(current_season_shots))
+                z_stat = (mean_current - mean_pre_thisseason) / (combined_rate * (1 / len(current_season_shots) + 1 / len(pre_thisseason))) ** 0.5
+                p_value = (1 - norm.cdf(z_stat))
+
+                # Determine if the p-value is less than the significance level (e.g., 0.05)
+                significance_level = 0.05
+                if p_value < significance_level:
+                    x_10 = x_10 + x_10_inc
+                    x_2024 = x_2024 + x_2024_inc
+                    adjusted = 1
+                    print(f"Player: {player_name} has significantly different shots this season (this year mean: {mean_current:.3f}, gp: {len(current_season_shots)} vs. mean pre: {mean_pre_thisseason:.3f}, gp: {len(pre_thisseason)}). Adjusting weights to x_10 = {x_10}, x_2024 = {x_2024}.")
+
             # Add weighted shots for the most recent 10 games
             if len(current_season_shots) > 10:
                 weighted_shots.extend(current_season_shots[:10] * x_10)
@@ -321,6 +354,11 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
             weighted_shots.extend(last_season_shots * x_2023)
             weighted_shots.extend(twothree_season_shots * x_2022)
 
+            # if adjusted, reset coefficients:
+            if adjusted == 1:
+                x_10 -= x_10_inc
+                x_2024 -= x_2024_inc
+
             cursor.execute("""
             SELECT date, over_under, points, MAX(price) as price 
             FROM player_shots_odds 
@@ -332,7 +370,7 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
             print_bool = 0      # if 1, print suggested bets to console
             for date_b, over_under, points, price in odds_data:
                 # Check if the modelled likelihoods for this date and player_name already exist
-                cursor.execute(f"SELECT 1 FROM {model_table} WHERE date = ? AND player_name = ? AND over_under = ?", (date_b, player_name, over_under))
+                cursor.execute(f"SELECT 1 FROM {model_table} WHERE date = ? AND player_name = ? AND over_under = ? AND points = ?", (date_b, player_name, over_under, points))
                 if cursor.fetchone() is None and date_b == date:
                     if opposition_adjust != 0:
                         opposition_factor = get_opposition_factor(date, opposing_team, opposition_adjust)
@@ -342,12 +380,59 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
                     implied_likelihood = 1/price
                     poisson_kelly = kelly_criterion(poisson_likelihood, price) / 4
 
-                    cursor.execute(f'''
-                    INSERT INTO {model_table} (player_name, date, over_under, points, implied_likelihood, normal_likelihood, poisson_likelihood, raw_data_likelihood, weighted_likelihood, poisson_kelly)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-                    ''', (player_name, date, over_under, points, implied_likelihood, normal_likelihood, poisson_likelihood, raw_data_likelihood, weighted_likelihood, poisson_kelly))
-                    if poisson_kelly > 0 and print_bool:
+                    if poisson_kelly > 0.01:        #output histogram and statistical comparison of this season to previous ones
                         print(f"Player: {player_name}, date: {date}, {over_under} {points}, Price: {price}, Kelly Bet: {poisson_kelly*100:.2f}%")
+                        pre_thisseason = last_season_shots + twothree_season_shots
+                        # Calculate the mean & variance of the two samples
+                        cur_mean = sum(current_season_shots) / len(current_season_shots)
+                        cur_var = sum([(x - sum(current_season_shots) / len(current_season_shots))**2 for x in current_season_shots]) / len(current_season_shots)
+                        past_mean = sum(pre_thisseason) / len(pre_thisseason)
+                        past_lambda = past_mean
+                        past_var = sum([(x - sum(pre_thisseason) / len(pre_thisseason))**2 for x in pre_thisseason]) / len(pre_thisseason)
+                        combined_rate = (sum(current_season_shots) + sum(pre_thisseason)) / (len(current_season_shots) + len(pre_thisseason))
+
+                        # Perform a rate-comparison test
+                        z_stat = abs((cur_mean - past_mean)) / (combined_rate * (1 / len(current_season_shots) + 1 / len(pre_thisseason))) ** 0.5
+                        p_value = (1 - norm.cdf(z_stat))*2
+
+                        # Calculate the p-value
+                        #p_value = poisson.cdf(sum(current_season_shots), past_lambda * len(current_season_shots))
+
+                        # Determine if the p-value is less than the significance level (e.g., 0.05)
+                        significance_level = 0.05
+                        if p_value < significance_level:
+                            diff_text = f'24/25 sig. diff. from prev. szns (p={p_value:.3f})'
+                        else:
+                            diff_text = f'24/25 not sig. diff. from prev. szns p={p_value:.3f}'
+                        
+                        # make histogram of 1) this years shots and 2) all other shots (last season and 2/3 season)
+                        # Check if the figure already exists
+                        fig_path = f"player_shots_histograms/{player_name.replace(' ', '_')}_{date}.png"
+                        if not os.path.exists(fig_path):
+                            fig, ax = plt.subplots()
+                            bins = range(11)  # Bins from 0 to 10 (10 bins for values 0 to 9)
+                            ax.hist(current_season_shots, bins=bins, alpha=0.5, label='2024/2025', align='left')
+                            ax.hist(last_season_shots, bins=bins, alpha=0.5, label='2023/2024', align='left')
+                            ax.hist(twothree_season_shots, bins=bins, alpha=0.5, label='2022/2023', align='left')
+                            ax.set_xticks(range(10))  # Ensure x-axis has ticks from 0 to 9
+                            ax.set_xlabel('Shots per game')
+                            ax.set_ylabel('Frequency')
+                            ax.set_title(f'{player_name} shots per game\n24/25:({cur_mean:.2f}, {cur_var:.2f}), prev:({past_mean:.2f}, {past_var:.2f})\n{diff_text}')
+                            ax.legend()
+                            fig.savefig(fig_path)
+                            #plt.show()
+                            plt.close(fig)
+
+
+
+                    cursor.execute(f"SELECT 1 FROM {model_table} WHERE player_name = ? AND date = ? AND over_under = ? AND points = ?", (player_name, date, over_under, points))
+                    if cursor.fetchone() is None:
+                        cursor.execute(f'''
+                        INSERT INTO {model_table} (player_name, date, over_under, points, implied_likelihood, normal_likelihood, poisson_likelihood, raw_data_likelihood, weighted_likelihood, poisson_kelly)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        ''', (player_name, date, over_under, points, implied_likelihood, normal_likelihood, poisson_likelihood, raw_data_likelihood, weighted_likelihood, poisson_kelly))
+                        if poisson_kelly > 0 and print_bool:
+                            print(f"Player: {player_name}, date: {date}, {over_under} {points}, Price: {price}, Kelly Bet: {poisson_kelly*100:.2f}%")
 
 
     conn.commit()
