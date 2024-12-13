@@ -1,10 +1,13 @@
 Most of these files are extraneous or test/analysis scripts (and results).  The core files and flow follow
+setup_database.py
 main.py
 odds_api_main.py
 player_api.py
 update_ledger.py (only for evaluating results)
 weight_test.py
 opposition_test.py
+
+setup_database.py or similar should be used to initialize the .db file
 
 Main daily run structure is as follows:
 - main.py is run, which then calls
