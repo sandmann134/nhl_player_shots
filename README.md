@@ -1,4 +1,4 @@
-Most of these files are extraneous or test/analysis scripts (and results).  The core files and flow follow
+Most of these files are extraneous or test/analysis scripts (and results).  The core files and flow follow:
 setup_database.py
 main.py
 odds_api_main.py
@@ -9,11 +9,13 @@ opposition_test.py
 
 setup_database.py or similar should be used to initialize the .db file
 
+These scripts in their current form are inefficient as they were built additively with several different models, and some testing/graphing output built in.  But they run easily and quickly enough to be useful daily.
+
 Main daily run structure is as follows:
 - main.py is run, which then calls
 - odds_api_main.py which gathers player shot odds for the day if not done already, storing them in table in db
 - player_api.py is then run with automatically fetches player data from nhl api and models the relevant players
-  with the original, default weighting.  These modelled likelihoods/recommended bets are written to a .csv
+  with the original, default weighting of different time periods.  Once this is constructed, several different statistical models output the expected likelihood of that player having over/under the shot total, and this is compared to the implied betting odds to produce a suggested bet size as a fraction of the Kelly bet (if there is an expected edge).  These modelled likelihoods/recommended bets are written to a .csv
 - daily_factor_update() is then run which updates factors used to compensate for how many shots a given team
   allows, relative to the league average.  This is used later in models which include opposition weighting.
 - update_ledger() is run which updates a ledger for the past days, to check results and see if the suggested
