@@ -22,7 +22,7 @@ Main daily run structure is as follows:
   bets won or lost money, and then store this in the various ledgers - one for each model weighting.
 - weight_test.py and opposition_test.py are then run, which repeat all of this but with 1) different weightings
   for recency (last 10 games, this season, last season, 22/23 season) and 2) including a factor to account for
-  who the opposing team is on a given night (whether they give up more or less than league average).
+  who the opposing team is on a given night (whether they give up more or less than league average).  These scripts also update/produce plots showing the bankrolls over time for the various different models.
 
 Bets are typically made based on the output 'modelled_likelihoods_weight4_tenthOppositionFactor.csv' which has 
 a weighting of x_10=4, x_2024=3, x_2023=2, x_2022=1 (meaning last 10 games counted 4 times each, other games 
