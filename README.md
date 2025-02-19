@@ -33,10 +33,11 @@ To keep the details of the statistically modelling private, those details have b
 repository.  This repository is posted to show script structure and execution workflow.  If you would like to
 discuss the details of the modelling, please contact me directly.
 
-Several plots can be found in the 'plots' folder.  These show the relative performance of a number of different 
-statistical models which were developed as part of the testing process.  Each model is a different combination 
-of 1) statistical model type, 2) different weightings towards recency, 3) different adjustments based on the 
-opponents average shots against (relative to league average), among other smaller factors.  These plots show 
+The performance of several models can be found in 'tested_models_plot.png'.  This fig. shows the relative 
+performance of a number of statistical models with different recency weightings which were developed as part of 
+the testing process.  Tests of several other factors also exist, with each model adding or combining different: 
+1) statistical model type, 2) different weightings towards recency, 3) different adjustments based on the 
+opponents' average shots against (relative to league average), among other smaller factors.  The included plot shows 
 daily bankroll if one were to start with $100 on day one of the 2024/25 NHL season, and place bets based on each
-models output and using a fraction of a Kelly criteria for bet size.  The plots are updated up until start of the
+models output and using a fraction of a Kelly criteria for bet size.  The plot is updated until start of the
 NHL break for 4-Nations.
