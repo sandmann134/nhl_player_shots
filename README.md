@@ -1,3 +1,5 @@
+This repository holds the core code for a statistical NHL-player shot-on-goal model based on past player performances. 
+
 Most of these files are extraneous or test/analysis scripts (and results).  The core files and flow follow:
 setup_database.py
 main.py
