@@ -4,6 +4,7 @@ import sqlite3
 from datetime import datetime, timedelta
 from config import API_KEY, SPORT, REGIONS, MARKETS, ODDS_FORMAT, DATE_FORMAT, DATABASE
 
+
 # Set this variable to 'y' if you want to print to console
 print_to_console = 'y'
 

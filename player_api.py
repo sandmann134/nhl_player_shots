@@ -8,6 +8,7 @@ from datetime import datetime
 from team_avg_SA import get_opposition_factor
 from config import DATABASE
 
+
 # Define the base URL for the NHL API
 base_url = "https://api-web.nhle.com/v1"
 url2 = "https://statsapi.web.nhl.com/api/v1"
@@ -312,10 +313,13 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
             adjusted = 0    # boolean for if coefficients need resetting
             x_10_inc = 2    # increment for x_10 if sig_diff_adjust == 1
             x_2024_inc = 1  # increment for x_2024 if sig_diff_adjust == 1
-            if sig_diff_adjust == 1 and len(current_season_shots) > 9:
+            if sig_diff_adjust == 1 and len(current_season_shots) > 9 and len(last_season_shots)!=0:
                 pre_thisseason = last_season_shots + twothree_season_shots
 
                 # Calculate the mean of the two samples
+                if (len(current_season_shots) == 0 or len(pre_thisseason) == 0):
+                    print(f'Player {player_name} has null game data, len(last_season_shots)={len(last_season_shots)}')
+
                 mean_current = sum(current_season_shots) / len(current_season_shots)
                 mean_pre_thisseason = sum(pre_thisseason) / len(pre_thisseason)
 
@@ -380,12 +384,14 @@ def fetch_and_store_player_data(x_10 = 5, x_2024 = 3, x_2023 = 2, x_2022 = 1, op
                     implied_likelihood = 1/price
                     poisson_kelly = kelly_criterion(poisson_likelihood, price) / 4
 
-                    if poisson_kelly > 0.01:        #output histogram and statistical comparison of this season to previous ones
+                    if poisson_kelly > 0.01 and len(last_season_shots)!=0 and len(current_season_shots)!=0:        #output histogram and statistical comparison of this season to previous ones
                         print(f"Player: {player_name}, date: {date}, {over_under} {points}, Price: {price}, Kelly Bet: {poisson_kelly*100:.2f}%")
                         pre_thisseason = last_season_shots + twothree_season_shots
                         # Calculate the mean & variance of the two samples
                         cur_mean = sum(current_season_shots) / len(current_season_shots)
                         cur_var = sum([(x - sum(current_season_shots) / len(current_season_shots))**2 for x in current_season_shots]) / len(current_season_shots)
+                        if len(pre_thisseason) == 0:
+                            print(f'Player {player_name} has null pre_thisseason data')
                         past_mean = sum(pre_thisseason) / len(pre_thisseason)
                         past_lambda = past_mean
                         past_var = sum([(x - sum(pre_thisseason) / len(pre_thisseason))**2 for x in pre_thisseason]) / len(pre_thisseason)

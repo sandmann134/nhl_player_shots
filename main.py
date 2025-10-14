@@ -50,10 +50,10 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Run the script to fetch and store odds
-    subprocess.run(['python3', os.path.join(script_dir, 'odds_api_main.py')])
+    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'odds_api_main.py')])
 
     # Run the script to calculate modelled likelihoods for today's bets
-    subprocess.run(['python3', os.path.join(script_dir, 'player_api.py')])
+    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'player_api.py')])
 
     daily_factor_update()
 
@@ -84,9 +84,9 @@ def main():
     update_ledger()
     
     # Run weight_test.py to update the ledger with different weights
-    subprocess.run(['python3', os.path.join(script_dir, 'weight_test.py')])
+    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'weight_test.py')])
     # Run opposition_test.py to update the ledger with different opposition factors
-    subprocess.run(['python3', os.path.join(script_dir, 'opposition_test.py')])
+    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'opposition_test.py')])
     # Run weight_test3_avg.py to update the ledger with different weights
     #subprocess.run(['python3', os.path.join(script_dir, 'weight_test3_avg.py')])
 
