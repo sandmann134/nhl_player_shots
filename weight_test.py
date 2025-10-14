@@ -49,7 +49,7 @@ def write_table_to_csv(table_name):
     df.to_csv(f"{table_name}.csv", index=False)
     conn.close()
 
-def main():
+def run_weight_test():
 
     # Get the directory of the current script
     script_dir = os.path.dirname(os.path.abspath(__file__))

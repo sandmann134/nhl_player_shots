@@ -7,6 +7,9 @@ from player_api import fetch_and_store_player_data
 from update_ledger import update_ledger, print_ledger
 from config import DATABASE
 from team_avg_SA import daily_factor_update
+from odds_api_main import fetch_and_store_odds
+from weight_test import run_weight_test
+from opposition_test import run_opposition_test
 
 def print_table_preview(conn, table_name):
     query = f"SELECT * FROM {table_name}"
@@ -50,10 +53,7 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Run the script to fetch and store odds
-    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'odds_api_main.py')])
-
-    # Run the script to calculate modelled likelihoods for today's bets
-    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'player_api.py')])
+    fetch_and_store_odds()
 
     daily_factor_update()
 
@@ -84,9 +84,9 @@ def main():
     update_ledger()
     
     # Run weight_test.py to update the ledger with different weights
-    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'weight_test.py')])
+    run_weight_test()
     # Run opposition_test.py to update the ledger with different opposition factors
-    subprocess.run(['/Users/alexmann/.pyenv/versions/3.9.16/bin/python3', os.path.join(script_dir, 'opposition_test.py')])
+    run_opposition_test()
     # Run weight_test3_avg.py to update the ledger with different weights
     #subprocess.run(['python3', os.path.join(script_dir, 'weight_test3_avg.py')])
 

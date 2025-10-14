@@ -131,3 +131,4 @@ daily_odds/
 logs/
 plots/
 *.xlsx
+player_shots_histograms/
