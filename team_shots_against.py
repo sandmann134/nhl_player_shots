@@ -2,6 +2,7 @@ from datetime import datetime
 import requests
 import numpy as np
 from scipy.stats import ttest_ind
+from season import get_current_season
 
 # Function to get team stats from NHL API
 def get_team_stats():
@@ -55,9 +56,10 @@ def main():
     # Extract team abbreviations
     team_abbreviations = [team['teamAbbrev']['default'] for team in data['standings']]
 
-    #team_stats_url = f"{url2}/en/game?isAggregate=0&gameTypeId=2&season=20242025&gameDate<=2024-10-24&homeTeamId=19"
-    team_homegames_url = "https://api.nhle.com/stats/rest/en/game?isAggregate=0&cayenneExp=season=20242025%20and%20gameType=2%20and%20homeTeamId=19"
-    team_awaygames_url = "https://api.nhle.com/stats/rest/en/game?isAggregate=0&cayenneExp=season=20242025%20and%20gameType=2%20and%20visitingTeamId=19"
+    season = get_current_season()
+    #team_stats_url = f"{url2}/en/game?isAggregate=0&gameTypeId=2&season={season}&gameDate<={datetime.today().strftime('%Y-%m-%d')}&homeTeamId=19"
+    team_homegames_url = f"https://api.nhle.com/stats/rest/en/game?isAggregate=0&cayenneExp=season={season}%20and%20gameType=2%20and%20homeTeamId=19"
+    team_awaygames_url = f"https://api.nhle.com/stats/rest/en/game?isAggregate=0&cayenneExp=season={season}%20and%20gameType=2%20and%20visitingTeamId=19"
 
     home_response = requests.get(team_homegames_url)
     away_response = requests.get(team_awaygames_url)

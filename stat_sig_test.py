@@ -12,6 +12,7 @@ from update_ledger import update_ledger, print_ledger
 from setup_database import create_ledger, create_player_models
 from config import DATABASE
 from scipy.stats import poisson
+from season import get_current_season
 
 
 # IN PROGRESS:
@@ -83,14 +84,18 @@ def main():
              'San Jose Sharks', 'St. Louis Blues',
              'Colorado Avalanche', 'Utah Hockey Club']
 
+    current_season = get_current_season()
+    last_season = str(int(current_season) - 10001)
+    two_seasons_ago = str(int(current_season) - 20002)
+
     for player in players:
         player_id = get_player_id(teams[players.index(player)], teams[0], player)[0]
-        current_season_shots = get_shots_per_game(player_id, '20242025', today_date)
-        last_season_shots = get_shots_per_game(player_id, '20232024', today_date)
-        twothree_season_shots = get_shots_per_game(player_id, '20222023', today_date)
+        current_season_shots = get_shots_per_game(player_id, current_season, today_date)
+        last_season_shots = get_shots_per_game(player_id, last_season, today_date)
+        two_seasons_ago_shots = get_shots_per_game(player_id, two_seasons_ago, today_date)
 
         #combine previous seasons into one:
-        pre_thisseason = last_season_shots + twothree_season_shots
+        pre_thisseason = last_season_shots + two_seasons_ago_shots
         all_shots = pre_thisseason + current_season_shots
         
         #output the mean and variance of pre_thisseason and this season:
@@ -135,9 +140,9 @@ def main():
         # make histogram of 1) this years shots and 2) all other shots (last season and 2/3 season)
         fig, ax = plt.subplots()
         bins = range(11)  # Bins from 0 to 10 (10 bins for values 0 to 9)
-        ax.hist(current_season_shots, bins=bins, alpha=0.5, label='2024/2025', align='left')
-        ax.hist(last_season_shots, bins=bins, alpha=0.5, label='2023/2024', align='left')
-        ax.hist(twothree_season_shots, bins=bins, alpha=0.5, label='2022/2023', align='left')
+        ax.hist(current_season_shots, bins=bins, alpha=0.5, label=f'{current_season[:4]}/{current_season[4:]}', align='left')
+        ax.hist(last_season_shots, bins=bins, alpha=0.5, label=f'{last_season[:4]}/{last_season[4:]}', align='left')
+        ax.hist(two_seasons_ago_shots, bins=bins, alpha=0.5, label=f'{two_seasons_ago[:4]}/{two_seasons_ago[4:]}', align='left')
         ax.set_xticks(range(10))  # Ensure x-axis has ticks from 0 to 9
         ax.set_xlabel('Shots per game')
         ax.set_ylabel('Frequency')

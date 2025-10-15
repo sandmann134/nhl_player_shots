@@ -7,12 +7,13 @@ import datetime
 from tenacity import retry, stop_after_attempt, wait_exponential
 from player_api import get_player_id
 from config import DATABASE
+from season import get_current_season
 
 
 # Constants
 INITIAL_BANKROLL = 100
 BASE_URL = "https://api-web.nhle.com/v1"
-SEASON = "20242025"
+SEASON = get_current_season()
 
 # Get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))

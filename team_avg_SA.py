@@ -5,9 +5,12 @@ import numpy as np
 from config import DATABASE
 import csv
 
+from season import get_current_season
+
 # Function to get team stats from NHL API
 def get_team_stats():
-    team_shots_url = "https://api.nhle.com/stats/rest/en/team/summary?sort=shotsForPerGame&cayenneExp=seasonId=20242025%20and%20gameTypeId=2"
+    season = get_current_season()
+    team_shots_url = f"https://api.nhle.com/stats/rest/en/team/summary?sort=shotsForPerGame&cayenneExp=seasonId={season}%20and%20gameTypeId=2"
     response = requests.get(team_shots_url)
     team_stats = {}
     data = response.json().get('data', [])
