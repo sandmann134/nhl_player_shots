@@ -132,3 +132,4 @@ logs/
 plots/
 *.xlsx
 player_shots_histograms/
+__pycache__/
